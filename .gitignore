@@ -1,0 +1,5 @@
+raw/
+data/candidates.json
+data/enriched.json
+__pycache__/
+*.pyc

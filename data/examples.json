@@ -1,0 +1,18 @@
+{
+ "morluto/rea": {
+  "label": "DX-Ball sound-pan reconstruction (README showcase)",
+  "url": "https://github.com/morluto/rea#dx-ball-reconstruct-a-sound-pan-calculation"
+ },
+ "rehan-remade/universal-modder": {
+  "label": "Fal Arsenal Terraria mod",
+  "url": "https://github.com/rehan-remade/universal-modder/tree/HEAD/examples/terraria-tmodloader"
+ },
+ "mrdoob/three.js": {
+  "label": "Three.js Quake (playable)",
+  "url": "https://mrdoob.github.io/three-quake/"
+ },
+ "mrdoob/three-quake": {
+  "label": "Play in browser",
+  "url": "https://mrdoob.github.io/three-quake/"
+ }
+}

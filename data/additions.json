@@ -1,0 +1,88 @@
+{
+ "reverse": [
+  "morluto/rea",
+  "LaurieWired/GhidraMCP",
+  "bethington/ghidra-mcp",
+  "clearbluejar/pyghidra-mcp",
+  "mrexodia/ida-pro-mcp",
+  "NationalSecurityAgency/ghidra",
+  "radareorg/radare2",
+  "rizinorg/cutter"
+ ],
+ "modding": [
+  "rehan-remade/universal-modder"
+ ],
+ "mashups": [
+  "bailo167/awesome-game-mashups"
+ ],
+ "replacement": [
+  "xinntao/Real-ESRGAN",
+  "chaiNNer-org/chaiNNer",
+  "upscayl/upscayl",
+  "RTXRemix/remix",
+  "NVIDIAGameWorks/rtx-remix",
+  "Phhofm/models"
+ ],
+ "agents": [
+  "anthropics/claude-code",
+  "openai/codex",
+  "google-gemini/gemini-cli",
+  "sst/opencode",
+  "anomalyco/opencode",
+  "cline/cline",
+  "CoderGamester/mcp-unity",
+  "IvanMurzak/Unity-MCP",
+  "CoplayDev/unity-mcp",
+  "justinpbarnett/unity-mcp",
+  "Coding-Solo/godot-mcp",
+  "ee0pdt/Godot-MCP",
+  "chongdashu/unreal-mcp",
+  "flopperam/unreal-engine-mcp",
+  "ahujasid/blender-mcp",
+  "anthropics/skills",
+  "Orama-Interactive/Pixelorama"
+ ],
+ "code": [
+  "godotengine/godot",
+  "bevyengine/bevy",
+  "mrdoob/three.js",
+  "defold/defold",
+  "libgdx/libgdx",
+  "phaserjs/phaser",
+  "BabylonJS/Babylon.js",
+  "raysan5/raylib",
+  "4ian/GDevelop",
+  "blender/blender",
+  "aseprite/aseprite",
+  "PlayCanvas/engine",
+  "o3de/o3de"
+ ],
+ "3d": [
+  "Tencent-Hunyuan/Hunyuan3D-2.1",
+  "Tencent-Hunyuan/Hunyuan3D-2",
+  "microsoft/TRELLIS",
+  "VAST-AI-Research/TripoSR",
+  "nv-tlabs/kimodo",
+  "JannisX11/blockbench"
+ ],
+ "audio": [
+  "ace-step/ACE-Step",
+  "QwenLM/Qwen3-TTS",
+  "facebookresearch/audiocraft",
+  "hkchengrex/MMAudio",
+  "coqui-ai/TTS",
+  "myshell-ai/OpenVoice",
+  "2noise/ChatTTS",
+  "FunAudioLLM/CosyVoice"
+ ],
+ "qa": [
+  "Unity-Technologies/ml-agents",
+  "Farama-Foundation/Gymnasium",
+  "microsoft/playwright",
+  "Farama-Foundation/Arcade-Learning-Environment"
+ ],
+ "showcase": [
+  "mrdoob/three-descent",
+  "mshumer/Claude-of-Duty"
+ ]
+}

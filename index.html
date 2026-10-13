@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Awesome AI Game Dev Tools</title>
+<meta name="description" content="Open-source AI tools for making games and for decompiling, remixing and mashing up games you own. 100+ stars, active in the last year.">
+<style>
+:root{--bg:#0e1116;--panel:#161b22;--line:#2a313c;--fg:#e6edf3;--mut:#8b949e;--acc:#58a6ff;--good:#3fb950}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+a{color:var(--acc);text-decoration:none}a:hover{text-decoration:underline}
+header,main,footer{max-width:1300px;margin:auto;padding:0 20px}header{padding-top:28px}h1{margin:0 0 6px;font-size:28px}header p{margin:4px 0;color:var(--mut)}
+.legal{background:#1d2430;border:1px solid var(--line);border-radius:8px;padding:10px 14px;color:var(--mut);font-size:13px;margin:12px 0}
+h2{margin:28px 0 6px;font-size:20px}.sd{color:var(--mut);margin:0 0 12px;font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.card img{width:100%;aspect-ratio:16/10;object-fit:cover;background:#000;display:block}
+.card .b{padding:10px 12px;flex:1;display:flex;flex-direction:column;gap:5px}.card h3{margin:0;font-size:15.5px;word-break:break-word}
+.meta{color:var(--mut);font-size:12.5px}.desc{font-size:13px;color:#c9d1d9;flex:1}.lk a{margin-right:10px;font-size:13px}
+.tag{display:inline-block;padding:1px 7px;border-radius:10px;border:1px solid var(--line);font-size:11.5px;color:var(--mut);margin:0 4px 3px 0;cursor:pointer}
+.controls{position:sticky;top:0;background:var(--bg);padding:10px 0;z-index:2;border-bottom:1px solid var(--line)}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+input,select{background:var(--panel);color:var(--fg);border:1px solid var(--line);border-radius:6px;padding:7px 9px;font-size:14px}#q{flex:1;min-width:200px}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}.tags button{background:var(--panel);color:var(--fg);border:1px solid var(--line);border-radius:16px;padding:4px 11px;cursor:pointer;font-size:12.5px}
+.tags button.on{background:var(--acc);color:#000;border-color:var(--acc)}
+.rules{columns:2;font-size:13.5px;color:#c9d1d9}@media(max-width:700px){.rules{columns:1}}
+footer{color:var(--mut);font-size:13px;padding:30px 20px}
+</style></head><body>
+<header><h1>🎮 Awesome AI Game Dev Tools</h1>
+<p id="stats">Loading…</p>
+<p><a href="https://github.com/SubmitGame/awesome-ai-game-dev-tools">GitHub repo</a> · <a href="data/tools.json">tools.json</a> · <a href="https://github.com/SubmitGame/awesome-ai-game-dev-tools/blob/main/CONTRIBUTING.md">Add a tool</a> · <a href="https://submitgame.github.io/awesome-decomp-games/">Awesome Decomp Games</a></p></header>
+<main>
+<div class="legal"><b>Ground rules for section 1:</b> only use games you own. No ROMs, ISOs or disc images: this site doesn't host or link to them. Don't ship original game files or decompiled code, and stay out of online games with anti-cheat.</div>
+<div class="controls"><div class="row">
+<input id="q" type="search" placeholder="Search tools, descriptions, tags…" aria-label="Search">
+<select id="sec" aria-label="Section"><option value="">All sections</option></select>
+<select id="sort" aria-label="Sort"><option value="sec">By section</option><option value="stars">Most stars</option><option value="recent">Recently pushed</option></select>
+<label class="meta"><input type="checkbox" id="inact"> show inactive</label>
+<span class="meta" id="count"></span></div>
+<div class="tags" id="tags"></div></div>
+<div id="out"></div>
+</main>
+<footer>Every entry: 100+ GitHub stars and a push in the last year (inactive = archived or no push for 2+ years). Stars come from the GitHub API, refreshed daily. List CC0, code MIT.</footer>
+<script>
+const $=s=>document.querySelector(s),k=n=>n>=1000?(n/1000).toFixed(1)+'k':n,h=s=>(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const SUB={reverse:'1b',modding:'1d',mashups:'1e',replacement:'1f'};let D,F,M,on=new Set();
+Promise.all(['data/tools.json','data/featured.json','data/media.json'].map(u=>fetch(u).then(r=>r.json()))).then(([d,f,m])=>{D=d;F=f;M=m;
+ $('#stats').textContent=`${d.active} active tools · ${d.inactive} inactive · updated ${d.generated_at.slice(0,10)}`;
+ for(const [s,v] of Object.entries(d.sections))$('#sec').insertAdjacentHTML('beforeend',`<option value="${s}">${SUB[s]||v.num}. ${h(v.name)}</option>`);
+ const cnt={};d.tools.forEach(t=>t.tags.forEach(g=>cnt[g]=(cnt[g]||0)+1));
+ Object.entries(cnt).sort((a,b)=>b[1]-a[1]).forEach(([g,n])=>$('#tags').insertAdjacentHTML('beforeend',`<button data-t="${h(g)}">${h(g)} <span class="meta">${n}</span></button>`));
+ $('#tags').onclick=e=>{const b=e.target.closest('button');if(!b)return;const t=b.dataset.t;on.has(t)?on.delete(t):on.add(t);b.classList.toggle('on');draw()};
+ ['#q','#sec','#sort','#inact'].forEach(s=>$(s).addEventListener('input',draw));draw()});
+function ex(t){if(t.example)return `<a href="${t.example.url}">example: ${h(t.example.label)}</a>`;const m=M[t.repo]||{};return t.homepage&&m.homepage_status>=200&&m.homepage_status<400?`<a href="${h(t.homepage)}">site / demo</a>`:''}
+function card(t){return `<div class="card"><a href="${t.url}"><img loading="lazy" src="${t.screenshot}" alt=""></a><div class="b"><h3><a href="${t.url}">${h(t.repo)}</a>${t.archived?' 🗄️':''}</h3>
+<div class="meta">⭐ ${k(t.stars)} · pushed ${t.pushed_at.slice(0,10)}${t.license&&t.license!='NOASSERTION'?' · '+h(t.license):''}</div><div class="desc">${h(t.description)}</div>
+<div>${t.tags.map(g=>`<span class="tag">${h(g)}</span>`).join('')}</div><div class="lk"><a href="${t.url}">repo</a>${ex(t)}</div></div></div>`}
+function fcard(f){const i=(M[f.id]||{}).screenshot;return `<div class="card"><a href="${f.url}"><img loading="lazy" src="${i}" alt=""></a><div class="b"><h3><a href="${f.url}">${h(f.title)}</a></h3><div class="desc">${h(f.description)}</div><div class="lk"><a href="${f.url}">open</a>${f.site?`<a href="${f.site}">website</a>`:''}</div></div></div>`}
+function draw(){const q=$('#q').value.toLowerCase(),sec=$('#sec').value,srt=$('#sort').value,ia=$('#inact').checked;
+ let L=D.tools.filter(t=>(ia||!t.inactive)&&(!sec||t.section==sec)&&[...on].every(g=>t.tags.includes(g))&&(!q||(t.repo+' '+t.description+' '+t.tags.join(' ')).toLowerCase().includes(q)));
+ let fs=F.filter(f=>!on.size&&(!sec||f.section==sec||(sec=='reverse'&&f.section=='decomp'))&&(!q||(f.title+' '+f.description).toLowerCase().includes(q)));
+ $('#count').textContent=L.length+' tools';let o='';
+ if(srt!='sec'){L.sort((a,b)=>srt=='stars'?b.stars-a.stars:b.pushed_at.localeCompare(a.pushed_at));o=`<div class="grid">${fs.map(fcard).join('')}${L.map(card).join('')}</div>`}
+ else{for(const [s,v] of Object.entries(D.sections)){const r=L.filter(t=>t.section==s&&!t.inactive),ff=fs.filter(f=>f.section==s||(s=='reverse'&&f.section=='decomp'));
+  if(s=='reverse')o+=`<h2>1. Decompile, remix &amp; mash up games</h2><p class="sd">Point an agent at a game you own: read its binary, rebuild it, mod it, mash it up, or regenerate its assets.</p>`;
+  if(!r.length&&!ff.length)continue;o+=`<h2>${SUB[s]||v.num}. ${h(v.name)} <span class="meta">${r.length}</span></h2><p class="sd">${h(v.description)}</p><div class="grid">${ff.map(fcard).join('')}${r.map(card).join('')}</div>`}
+  const old=L.filter(t=>t.inactive);if(old.length)o+=`<h2>11. Inactive / unmaintained <span class="meta">${old.length}</span></h2><p class="sd">Archived or no push since ${D.inactive_cutoff}.</p><div class="grid">${old.map(card).join('')}</div>`}
+ $('#out').innerHTML=o||'<p class="meta">No matches.</p>'}
+</script></body></html>

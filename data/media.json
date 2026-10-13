@@ -1,0 +1,1021 @@
+{
+ "morluto/rea": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/morluto-rea.jpg",
+  "source": "social-preview"
+ },
+ "NationalSecurityAgency/ghidra": {
+  "screenshot": "screenshots/nationalsecurityagency-ghidra.jpg",
+  "source": "github-social-card"
+ },
+ "radareorg/radare2": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/radareorg-radare2.jpg",
+  "source": "https://raw.githubusercontent.com/radareorg/radare2/master/doc/images/shot.png"
+ },
+ "rizinorg/cutter": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/rizinorg-cutter.jpg",
+  "source": "social-preview"
+ },
+ "mrexodia/ida-pro-mcp": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/mrexodia-ida-pro-mcp.jpg",
+  "source": "https://img.youtube.com/vi/iFxNuk3kxhk/0.jpg"
+ },
+ "LaurieWired/GhidraMCP": {
+  "screenshot": "screenshots/lauriewired-ghidramcp.jpg",
+  "source": "https://github.com/user-attachments/assets/4986d702-be3f-4697-acce-aea55cd79ad3"
+ },
+ "bethington/ghidra-mcp": {
+  "screenshot": "screenshots/bethington-ghidra-mcp.jpg",
+  "source": "github-social-card"
+ },
+ "clearbluejar/pyghidra-mcp": {
+  "screenshot": "screenshots/clearbluejar-pyghidra-mcp.jpg",
+  "source": "https://github.com/user-attachments/assets/31c1831a-5be1-4698-8171-5ebfc9d6797c"
+ },
+ "rehan-remade/universal-modder": {
+  "screenshot": "screenshots/rehan-remade-universal-modder.jpg",
+  "source": "https://raw.githubusercontent.com/rehan-remade/universal-modder/main/docs/media/banner.png"
+ },
+ "upscayl/upscayl": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/upscayl-upscayl.jpg",
+  "source": "https://github.com/upscayl/upscayl/assets/25067102/d1b4af3c-aade-4bc9-97d0-cf88db679931"
+ },
+ "chaiNNer-org/chaiNNer": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/chainner-org-chainner.jpg",
+  "source": "https://raw.githubusercontent.com/chaiNNer-org/chaiNNer/main/docs/assets/banner.png"
+ },
+ "NVIDIAGameWorks/rtx-remix": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/nvidiagameworks-rtx-remix.jpg",
+  "source": "capture:https://www.nvidia.com/en-us/geforce/rtx-remix/"
+ },
+ "Phhofm/models": {
+  "screenshot": "screenshots/phhofm-models.jpg",
+  "source": "github-social-card"
+ },
+ "anomalyco/opencode": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/anomalyco-opencode.jpg",
+  "source": "social-preview"
+ },
+ "anthropics/skills": {
+  "screenshot": "screenshots/anthropics-skills.jpg",
+  "source": "github-social-card"
+ },
+ "anthropics/claude-code": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/anthropics-claude-code.jpg",
+  "source": "https://raw.githubusercontent.com/anthropics/claude-code/main/demo.gif"
+ },
+ "openai/codex": {
+  "screenshot": "screenshots/openai-codex.jpg",
+  "source": "https://raw.githubusercontent.com/openai/codex/main/.github/codex-cli-splash.png"
+ },
+ "google-gemini/gemini-cli": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/google-gemini-gemini-cli.jpg",
+  "source": "social-preview"
+ },
+ "OpenHands/OpenHands": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/openhands-openhands.jpg",
+  "source": "https://assets.openhands.dev/screenshot/automation-preview.png"
+ },
+ "FoundationAgents/MetaGPT": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/foundationagents-metagpt.jpg",
+  "source": "https://raw.githubusercontent.com/FoundationAgents/MetaGPT/main/docs/resources/software_company_cd.jpeg"
+ },
+ "cline/cline": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/cline-cline.jpg",
+  "source": "capture:https://cline.bot"
+ },
+ "OpenBMB/ChatDev": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/openbmb-chatdev.jpg",
+  "source": "https://raw.githubusercontent.com/OpenBMB/ChatDev/main/assets/puppeteer.png"
+ },
+ "ahujasid/mcp-for-blender": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/ahujasid-mcp-for-blender.jpg",
+  "source": "https://raw.githubusercontent.com/ahujasid/mcp-for-blender/main/assets/codex-screenshot.png"
+ },
+ "Donchitos/Claude-Code-Game-Studios": {
+  "screenshot": "screenshots/donchitos-claude-code-game-studios.jpg",
+  "source": "github-social-card"
+ },
+ "QwenLM/Qwen3-Coder": {
+  "screenshot": "screenshots/qwenlm-qwen3-coder.jpg",
+  "source": "https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/Qwen3-Coder-Next/swebench_pro.png"
+ },
+ "CoplayDev/unity-mcp": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/coplaydev-unity-mcp.jpg",
+  "source": "social-preview"
+ },
+ "Coding-Solo/godot-mcp": {
+  "screenshot": "screenshots/coding-solo-godot-mcp.jpg",
+  "source": "github-social-card"
+ },
+ "IvanMurzak/Unity-MCP": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/ivanmurzak-unity-mcp.jpg",
+  "source": "social-preview"
+ },
+ "leigest519/OpenGame": {
+  "screenshot": "screenshots/leigest519-opengame.jpg",
+  "source": "https://raw.githubusercontent.com/leigest519/OpenGame/main/assets/opengame_teaser.png"
+ },
+ "CoderGamester/mcp-unity": {
+  "screenshot": "screenshots/codergamester-mcp-unity.jpg",
+  "source": "https://raw.githubusercontent.com/CoderGamester/mcp-unity/main/docs/node.jpg"
+ },
+ "flopperam/unreal-engine-mcp": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/flopperam-unreal-engine-mcp.jpg",
+  "source": "https://raw.githubusercontent.com/flopperam/unreal-engine-mcp/main/assets/blueprint_modification2.png"
+ },
+ "IvanMurzak/Godot-MCP": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/ivanmurzak-godot-mcp.jpg",
+  "source": "social-preview"
+ },
+ "TREE-Ind/Unreal-Agent": {
+  "screenshot": "screenshots/tree-ind-unreal-agent.jpg",
+  "source": "github-social-card"
+ },
+ "NVIDIA/cosmos": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/nvidia-cosmos.jpg",
+  "source": "https://raw.githubusercontent.com/NVIDIA/cosmos/main/assets/demos/physics_newton_cradle.gif"
+ },
+ "princeton-vl/infinigen": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/princeton-vl-infinigen.jpg",
+  "source": "https://raw.githubusercontent.com/princeton-vl/infinigen/main/docs/images/infinigen.png"
+ },
+ "Robbyant/lingbot-world": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/robbyant-lingbot-world.jpg",
+  "source": "https://raw.githubusercontent.com/Robbyant/lingbot-world/main/assets/teaser.png"
+ },
+ "Tencent-Hunyuan/HunyuanWorld-1.0": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/tencent-hunyuan-hunyuanworld-1-0.jpg",
+  "source": "https://raw.githubusercontent.com/Tencent-Hunyuan/HunyuanWorld-1.0/main/assets/teaser.png"
+ },
+ "NVlabs/LongLive": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/nvlabs-longlive.jpg",
+  "source": "https://raw.githubusercontent.com/NVlabs/LongLive/main/Long-WAM/assets/demos/g1_cup_stacking.gif"
+ },
+ "Tencent-Hunyuan/HY-World-2.0": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/tencent-hunyuan-hy-world-2-0.jpg",
+  "source": "https://raw.githubusercontent.com/Tencent-Hunyuan/HY-World-2.0/main/assets/teaser.png"
+ },
+ "SkyworkAI/Matrix-Game": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/skyworkai-matrix-game.jpg",
+  "source": "capture:https://matrix-game-v3.github.io/"
+ },
+ "Robbyant/lingbot-world-v2": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/robbyant-lingbot-world-v2.jpg",
+  "source": "https://raw.githubusercontent.com/Robbyant/lingbot-world-v2/main/assets/teaser.png"
+ },
+ "Tencent-Hunyuan/HY-WorldPlay": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/tencent-hunyuan-hy-worldplay.jpg",
+  "source": "https://raw.githubusercontent.com/Tencent-Hunyuan/HY-WorldPlay/main/assets/teaser.webp"
+ },
+ "Tencent-Hunyuan/HunyuanWorld-Voyager": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/tencent-hunyuan-hunyuanworld-voyager.jpg",
+  "source": "https://raw.githubusercontent.com/Tencent-Hunyuan/HunyuanWorld-Voyager/main/assets/teaser.png"
+ },
+ "Tencent-Hunyuan/Hunyuan-GameCraft-1.0": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/tencent-hunyuan-hunyuan-gamecraft-1-0.jpg",
+  "source": "https://raw.githubusercontent.com/Tencent-Hunyuan/Hunyuan-GameCraft-1.0/main/asset/teaser.png"
+ },
+ "hzxie/CityDreamer": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/hzxie-citydreamer.jpg",
+  "source": "https://www.infinitescript.com/projects/CityDreamer/CityDreamer-Teaser.webp"
+ },
+ "godotengine/godot": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/godotengine-godot.jpg",
+  "source": "https://raw.githubusercontent.com/godotengine/godot-design/master/screenshots/editor_tps_demo_1920x1080.jpg"
+ },
+ "mrdoob/three.js": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/mrdoob-three-js.jpg",
+  "source": "social-preview"
+ },
+ "bevyengine/bevy": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/bevyengine-bevy.jpg",
+  "source": "social-preview"
+ },
+ "phaserjs/phaser": {
+  "homepage_status": 403,
+  "screenshot": "screenshots/phaserjs-phaser.jpg",
+  "source": "https://i.ytimg.com/vi/XLhi9IW0rxg/maxresdefault.jpg"
+ },
+ "raysan5/raylib": {
+  "homepage_status": 0,
+  "screenshot": "screenshots/raysan5-raylib.jpg",
+  "source": "github-social-card"
+ },
+ "Genesis-Embodied-AI/genesis-world": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/genesis-embodied-ai-genesis-world.jpg",
+  "source": "https://raw.githubusercontent.com/Genesis-Embodied-AI/genesis-world/readme-assets/videos/HeroShot_Final.png"
+ },
+ "4ian/GDevelop": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/4ian-gdevelop.jpg",
+  "source": "https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20screenshot.png"
+ },
+ "BabylonJS/Babylon.js": {
+  "homepage_status": 0,
+  "screenshot": "screenshots/babylonjs-babylon-js.jpg",
+  "source": "social-preview"
+ },
+ "libgdx/libgdx": {
+  "homepage_status": 0,
+  "screenshot": "screenshots/libgdx-libgdx.jpg",
+  "source": "https://libgdx.com/assets/images/index_showcase/game0.png"
+ },
+ "playcanvas/engine": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/playcanvas-engine.jpg",
+  "source": "social-preview"
+ },
+ "o3de/o3de": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/o3de-o3de.jpg",
+  "source": "social-preview"
+ },
+ "defold/defold": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/defold-defold.jpg",
+  "source": "social-preview"
+ },
+ "undreamai/LLMUnity": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/undreamai-llmunity.jpg",
+  "source": "https://raw.githubusercontent.com/undreamai/LLMUnity/main/.github/character.png"
+ },
+ "AUTOMATIC1111/stable-diffusion-webui": {
+  "screenshot": "screenshots/automatic1111-stable-diffusion-webui.jpg",
+  "source": "https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/screenshot.png"
+ },
+ "Comfy-Org/ComfyUI": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/comfy-org-comfyui.jpg",
+  "source": "social-preview"
+ },
+ "lllyasviel/Fooocus": {
+  "screenshot": "screenshots/lllyasviel-fooocus.jpg",
+  "source": "https://github.com/lllyasviel/Fooocus/assets/19834515/c49269c4-c274-4893-b368-047c401cc58c"
+ },
+ "aseprite/aseprite": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/aseprite-aseprite.jpg",
+  "source": "social-preview"
+ },
+ "facebookresearch/sam2": {
+  "screenshot": "screenshots/facebookresearch-sam2.jpg",
+  "source": "https://raw.githubusercontent.com/facebookresearch/sam2/main/assets/sa_v_dataset.jpg?raw=true"
+ },
+ "Orama-Interactive/Pixelorama": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/orama-interactive-pixelorama.jpg",
+  "source": "social-preview"
+ },
+ "DepthAnything/Depth-Anything-V2": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/depthanything-depth-anything-v2.jpg",
+  "source": "https://raw.githubusercontent.com/DepthAnything/Depth-Anything-V2/main/assets/teaser.png"
+ },
+ "QwenLM/Qwen-Image": {
+  "screenshot": "screenshots/qwenlm-qwen-image.jpg",
+  "source": "https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen-Image/bench.png#center"
+ },
+ "carson-katri/dream-textures": {
+  "screenshot": "screenshots/carson-katri-dream-textures.jpg",
+  "source": "social-preview"
+ },
+ "nadermx/backgroundremover": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/nadermx-backgroundremover.jpg",
+  "source": "social-preview"
+ },
+ "Sygil-Dev/sygil-webui": {
+  "screenshot": "screenshots/sygil-dev-sygil-webui.jpg",
+  "source": "https://raw.githubusercontent.com/Sygil-Dev/sygil-webui/master/images/streamlit/streamlit-t2i.png"
+ },
+ "leejet/stable-diffusion.cpp": {
+  "screenshot": "screenshots/leejet-stable-diffusion-cpp.jpg",
+  "source": "github-social-card"
+ },
+ "ByteDance-Seed/Bagel": {
+  "screenshot": "screenshots/bytedance-seed-bagel.jpg",
+  "source": "https://raw.githubusercontent.com/ByteDance-Seed/Bagel/main/assets/teaser.webp"
+ },
+ "VectorSpaceLab/OmniGen": {
+  "screenshot": "screenshots/vectorspacelab-omnigen.jpg",
+  "source": "https://raw.githubusercontent.com/VectorSpaceLab/OmniGen/main/imgs/demo_cases.png"
+ },
+ "Tencent-Hunyuan/HunyuanDiT": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/tencent-hunyuan-hunyuandit.jpg",
+  "source": "https://raw.githubusercontent.com/Tencent-Hunyuan/HunyuanDiT/main/kohya_ss-hydit/img/dreambooth.png"
+ },
+ "VectorSpaceLab/OmniGen2": {
+  "screenshot": "screenshots/vectorspacelab-omnigen2.jpg",
+  "source": "https://raw.githubusercontent.com/VectorSpaceLab/OmniGen2/main/assets/teaser.jpg"
+ },
+ "Tencent-Hunyuan/HunyuanImage-3.0": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/tencent-hunyuan-hunyuanimage-3-0.jpg",
+  "source": "https://raw.githubusercontent.com/Tencent-Hunyuan/HunyuanImage-3.0/main/assets/banner.png"
+ },
+ "Hugo-Dz/spritefusion-pixel-snapper": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/hugo-dz-spritefusion-pixel-snapper.jpg",
+  "source": "https://raw.githubusercontent.com/Hugo-Dz/spritefusion-pixel-snapper/main/static/hero.png"
+ },
+ "SkyworkAI/UniPic": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/skyworkai-unipic.jpg",
+  "source": "https://raw.githubusercontent.com/SkyworkAI/UniPic/main/UniPic-3/unipic3.png"
+ },
+ "Tencent-Hunyuan/HunyuanImage-2.1": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/tencent-hunyuan-hunyuanimage-2-1.jpg",
+  "source": "https://raw.githubusercontent.com/Tencent-Hunyuan/HunyuanImage-2.1/main/assets/demo.jpg"
+ },
+ "hpcaitech/Open-Sora": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/hpcaitech-open-sora.jpg",
+  "source": "https://raw.githubusercontent.com/hpcaitech/Open-Sora-Demo/main/readme/v2_vbench.png"
+ },
+ "Stability-AI/generative-models": {
+  "screenshot": "screenshots/stability-ai-generative-models.jpg",
+  "source": "https://raw.githubusercontent.com/Stability-AI/generative-models/main/assets/000.jpg"
+ },
+ "blender/blender": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/blender-blender.jpg",
+  "source": "social-preview"
+ },
+ "KlingAIResearch/LivePortrait": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/klingairesearch-liveportrait.jpg",
+  "source": "https://raw.githubusercontent.com/KlingAIResearch/LivePortrait/main/assets/docs/showcase2.gif"
+ },
+ "Wan-Video/Wan2.2": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/wan-video-wan2-2.jpg",
+  "source": "https://raw.githubusercontent.com/Wan-Video/Wan2.2/main/assets/comp_effic.png"
+ },
+ "NVlabs/instant-ngp": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/nvlabs-instant-ngp.jpg",
+  "source": "social-preview"
+ },
+ "Wan-Video/Wan2.1": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/wan-video-wan2-1.jpg",
+  "source": "https://raw.githubusercontent.com/Wan-Video/Wan2.1/main/assets/data_for_diff_stage.jpg"
+ },
+ "Tencent-Hunyuan/Hunyuan3D-2": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/tencent-hunyuan-hunyuan3d-2.jpg",
+  "source": "https://raw.githubusercontent.com/Tencent-Hunyuan/Hunyuan3D-2/main/assets/images/system.jpg"
+ },
+ "microsoft/TRELLIS": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/microsoft-trellis.jpg",
+  "source": "https://raw.githubusercontent.com/microsoft/TRELLIS/main/assets/teaser.png"
+ },
+ "modelscope/DiffSynth-Studio": {
+  "screenshot": "screenshots/modelscope-diffsynth-studio.jpg",
+  "source": "https://github.com/user-attachments/assets/1b461e0f-60aa-4b38-a44d-d1646cbbbc75"
+ },
+ "zai-org/CogVideo": {
+  "screenshot": "screenshots/zai-org-cogvideo.jpg",
+  "source": "https://raw.githubusercontent.com/THUDM/CogVideo/CogVideo/assets/appendix-sample-highframerate.png"
+ },
+ "Tencent-Hunyuan/HunyuanVideo": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/tencent-hunyuan-hunyuanvideo.jpg",
+  "source": "https://raw.githubusercontent.com/Tencent-Hunyuan/HunyuanVideo/refs/heads/main/assets/overall.png"
+ },
+ "Lightricks/LTX-Video": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/lightricks-ltx-video.jpg",
+  "source": "capture:https://ltx.io/model"
+ },
+ "VAST-AI-Research/TripoSR": {
+  "screenshot": "screenshots/vast-ai-research-triposr.jpg",
+  "source": "https://raw.githubusercontent.com/VAST-AI-Research/TripoSR/main/figures/teaser800.gif"
+ },
+ "JannisX11/blockbench": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/jannisx11-blockbench.jpg",
+  "source": "social-preview"
+ },
+ "Tencent-Hunyuan/HunyuanVideo-1.5": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/tencent-hunyuan-hunyuanvideo-1-5.jpg",
+  "source": "capture:https://hunyuan.tencent.com/video/zh?tabIndex=0"
+ },
+ "Tencent-Hunyuan/Hunyuan3D-2.1": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/tencent-hunyuan-hunyuan3d-2-1.jpg",
+  "source": "https://raw.githubusercontent.com/Tencent-Hunyuan/Hunyuan3D-2.1/main/assets/images/teaser.jpg"
+ },
+ "nv-tlabs/kimodo": {
+  "screenshot": "screenshots/nv-tlabs-kimodo.jpg",
+  "source": "https://raw.githubusercontent.com/nv-tlabs/kimodo/main/assets/teaser.gif"
+ },
+ "genmoai/mochi": {
+  "screenshot": "screenshots/genmoai-mochi.jpg",
+  "source": "github-social-card"
+ },
+ "Tencent-Hunyuan/Hunyuan3D-1": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/tencent-hunyuan-hunyuan3d-1.jpg",
+  "source": "https://raw.githubusercontent.com/Tencent-Hunyuan/Hunyuan3D-1/main/assets/teaser.png"
+ },
+ "aras-p/UnityGaussianSplatting": {
+  "screenshot": "screenshots/aras-p-unitygaussiansplatting.jpg",
+  "source": "https://img.youtube.com/vi/iccfV0YlWVI/0.jpg"
+ },
+ "Tencent-Hunyuan/HY-Motion-1.0": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/tencent-hunyuan-hy-motion-1-0.jpg",
+  "source": "https://raw.githubusercontent.com/Tencent-Hunyuan/HY-Motion-1.0/master/assets/teaser.jpg"
+ },
+ "LordLiang/DrawingSpinUp": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/lordliang-drawingspinup.jpg",
+  "source": "https://raw.githubusercontent.com/LordLiang/DrawingSpinUp/main/docs/static/images/teaser/fig_teaser.png"
+ },
+ "ActiveVisionLab/gaussctrl": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/activevisionlab-gaussctrl.jpg",
+  "source": "https://raw.githubusercontent.com/ActiveVisionLab/gaussctrl/main/assets/teaser.png"
+ },
+ "openai/whisper": {
+  "screenshot": "screenshots/openai-whisper.jpg",
+  "source": "https://raw.githubusercontent.com/openai/whisper/main/approach.png"
+ },
+ "RVC-Boss/GPT-SoVITS": {
+  "screenshot": "screenshots/rvc-boss-gpt-sovits.jpg",
+  "source": "https://github.com/user-attachments/assets/8c2a0e0a-7212-4b77-b5ef-2d192e09127f"
+ },
+ "microsoft/VibeVoice": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/microsoft-vibevoice.jpg",
+  "source": "https://raw.githubusercontent.com/microsoft/VibeVoice/main/Figures/DER.jpg"
+ },
+ "2noise/ChatTTS": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/2noise-chattts.jpg",
+  "source": "capture:https://2noise.com"
+ },
+ "OpenBMB/VoxCPM": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/openbmb-voxcpm.jpg",
+  "source": "https://raw.githubusercontent.com/OpenBMB/VoxCPM/main/assets/voxcpm2_model.png"
+ },
+ "RVC-Project/Retrieval-based-Voice-Conversion-WebUI": {
+  "screenshot": "screenshots/rvc-project-retrieval-based-voice-conversion-webui.jpg",
+  "source": "https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/assets/129054828/092e5c12-0d49-4168-a590-0b0ef6a4f630"
+ },
+ "resemble-ai/chatterbox": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/resemble-ai-chatterbox.jpg",
+  "source": "https://raw.githubusercontent.com/resemble-ai/chatterbox/master/Chatterbox-Multilingual.png"
+ },
+ "index-tts/index-tts": {
+  "screenshot": "screenshots/index-tts-index-tts.jpg",
+  "source": "https://raw.githubusercontent.com/index-tts/index-tts/main/assets/index2.5_video_cover.png"
+ },
+ "QwenAudio/CosyVoice": {
+  "homepage_status": 404,
+  "source": "github-social-card",
+  "screenshot": "screenshots/qwenaudio-cosyvoice.jpg"
+ },
+ "facebookresearch/audiocraft": {
+  "screenshot": "screenshots/facebookresearch-audiocraft.jpg",
+  "source": "github-social-card"
+ },
+ "KittenML/KittenTTS": {
+  "screenshot": "screenshots/kittenml-kittentts.jpg",
+  "source": "https://raw.githubusercontent.com/KittenML/KittenTTS/main/assets/banner.png"
+ },
+ "QwenLM/Qwen3-TTS": {
+  "screenshot": "screenshots/qwenlm-qwen3-tts.jpg",
+  "source": "https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen3-TTS-Repo/qwen3_tts_introduction.png"
+ },
+ "multimodal-art-projection/YuE": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/multimodal-art-projection-yue.jpg",
+  "source": "https://raw.githubusercontent.com/multimodal-art-projection/YuE/main/assets/frontier-teaser.png"
+ },
+ "open-mmlab/Amphion": {
+  "homepage_status": 404,
+  "screenshot": "screenshots/open-mmlab-amphion.jpg",
+  "source": "social-preview"
+ },
+ "fishaudio/Bert-VITS2": {
+  "screenshot": "screenshots/fishaudio-bert-vits2.jpg",
+  "source": "github-social-card"
+ },
+ "jasonppy/VoiceCraft": {
+  "screenshot": "screenshots/jasonppy-voicecraft.jpg",
+  "source": "github-social-card"
+ },
+ "netease-youdao/EmotiVoice": {
+  "screenshot": "screenshots/netease-youdao-emotivoice.jpg",
+  "source": "https://github.com/netease-youdao/EmotiVoice/assets/49354974/cc3f4c8b-8369-4e50-89cc-e40d27a6bdeb"
+ },
+ "boson-ai/higgs-audio": {
+  "screenshot": "screenshots/boson-ai-higgs-audio.jpg",
+  "source": "github-social-card"
+ },
+ "ace-step/ACE-Step": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/ace-step-ace-step.jpg",
+  "source": "https://raw.githubusercontent.com/ace-step/ACE-Step/main/assets/cpu_offload_performance.png"
+ },
+ "MoonInTheRiver/DiffSinger": {
+  "screenshot": "screenshots/moonintheriver-diffsinger.jpg",
+  "source": "https://raw.githubusercontent.com/MoonInTheRiver/DiffSinger/master/resources/tfb.png"
+ },
+ "WhisperSpeech/WhisperSpeech": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/whisperspeech-whisperspeech.jpg",
+  "source": "https://github.com/facebookresearch/encodec/raw/main/architecture.png"
+ },
+ "KoljaB/RealtimeTTS": {
+  "screenshot": "screenshots/koljab-realtimetts.jpg",
+  "source": "github-social-card"
+ },
+ "IAHispano/Applio": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/iahispano-applio.jpg",
+  "source": "social-preview"
+ },
+ "rsxdalv/TTS-WebUI": {
+  "homepage_status": 0,
+  "screenshot": "screenshots/rsxdalv-tts-webui.jpg",
+  "source": "social-preview"
+ },
+ "hkchengrex/MMAudio": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/hkchengrex-mmaudio.jpg",
+  "source": "https://img.youtube.com/vi/SLz3NWLyHxg/0.jpg"
+ },
+ "ZeyueT/AudioX": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/zeyuet-audiox.jpg",
+  "source": "https://github.com/user-attachments/assets/ca7e768a-a113-423d-ac7e-40b7437c5538"
+ },
+ "FireRedTeam/FireRedTTS2": {
+  "screenshot": "screenshots/fireredteam-fireredtts2.jpg",
+  "source": "https://raw.githubusercontent.com/FireRedTeam/FireRedTTS2/main/assets/gradio.png"
+ },
+ "QwenAudio/ThinkSound": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/qwenaudio-thinksound.jpg",
+  "source": "https://raw.githubusercontent.com/QwenAudio/ThinkSound/master/assets/figs/fig1_teaser.png"
+ },
+ "shivammehta25/Matcha-TTS": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/shivammehta25-matcha-tts.jpg",
+  "source": "social-preview"
+ },
+ "open-mmlab/FoleyCrafter": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/open-mmlab-foleycrafter.jpg",
+  "source": "https://raw.githubusercontent.com/open-mmlab/FoleyCrafter/main/assets/foleycrafter.png"
+ },
+ "oobabooga/textgen": {
+  "screenshot": "screenshots/oobabooga-textgen.jpg",
+  "source": "https://raw.githubusercontent.com/oobabooga/screenshots/refs/heads/main/CHAT-4.8.png"
+ },
+ "janhq/jan": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/janhq-jan.jpg",
+  "source": "capture:https://jan.ai/"
+ },
+ "pipecat-ai/pipecat": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/pipecat-ai-pipecat.jpg",
+  "source": "https://raw.githubusercontent.com/pipecat-ai/pipecat-examples/main/simple-chatbot/image.png"
+ },
+ "kyutai-labs/moshi": {
+  "screenshot": "screenshots/kyutai-labs-moshi.jpg",
+  "source": "https://raw.githubusercontent.com/kyutai-labs/moshi/main/moshi.png"
+ },
+ "TEN-framework/ten-framework": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/ten-framework-ten-framework.jpg",
+  "source": "capture:https://agent.theten.ai/"
+ },
+ "a16z-infra/ai-town": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/a16z-infra-ai-town.jpg",
+  "source": "https://github.com/a16z-infra/ai-town/assets/3489963/a4c91f17-23ed-47ec-8c4e-9f9a8505057d"
+ },
+ "duixcom/Duix-Mobile": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/duixcom-duix-mobile.jpg",
+  "source": "https://raw.githubusercontent.com/duixcom/Duix-Mobile/main/res/example.png"
+ },
+ "MeiGen-AI/InfiniteTalk": {
+  "screenshot": "screenshots/meigen-ai-infinitetalk.jpg",
+  "source": "github-social-card"
+ },
+ "Kedreamix/Linly-Talker": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/kedreamix-linly-talker.jpg",
+  "source": "https://raw.githubusercontent.com/Kedreamix/Linly-Talker/main/docs/HOI_en.png"
+ },
+ "uezo/ChatdollKit": {
+  "screenshot": "screenshots/uezo-chatdollkit.jpg",
+  "source": "social-preview"
+ },
+ "antgroup/ditto-talkinghead": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/antgroup-ditto-talkinghead.jpg",
+  "source": "capture:https://digital-avatar.github.io/ai/Ditto/"
+ },
+ "AkshitIreddy/Interactive-LLM-Powered-NPCs": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/akshitireddy-interactive-llm-powered-npcs.jpg",
+  "source": "https://github.com/AkshitIreddy/Interactive-LLM-Powered-NPCs/assets/90443032/feb9590f-3cde-476c-93ef-b0408169c150"
+ },
+ "indentlabs/notebook": {
+  "homepage_status": 0,
+  "screenshot": "screenshots/indentlabs-notebook.jpg",
+  "source": "github-social-card"
+ },
+ "YanqiDai/MMRole": {
+  "screenshot": "screenshots/yanqidai-mmrole.jpg",
+  "source": "https://raw.githubusercontent.com/YanqiDai/MMRole/main/assets/mmrole.png"
+ },
+ "microsoft/playwright": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/microsoft-playwright.jpg",
+  "source": "social-preview"
+ },
+ "Unity-Technologies/ml-agents": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/unity-technologies-ml-agents.jpg",
+  "source": "social-preview"
+ },
+ "Farama-Foundation/Gymnasium": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/farama-foundation-gymnasium.jpg",
+  "source": "social-preview"
+ },
+ "THUDM/AgentBench": {
+  "screenshot": "screenshots/thudm-agentbench.jpg",
+  "source": "https://raw.githubusercontent.com/THUDM/AgentBench/main/assets/cover.jpg"
+ },
+ "Farama-Foundation/Arcade-Learning-Environment": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/farama-foundation-arcade-learning-environment.jpg",
+  "source": "social-preview"
+ },
+ "mshumer/Claude-of-Duty": {
+  "screenshot": "screenshots/mshumer-claude-of-duty.jpg",
+  "source": "github-social-card"
+ },
+ "ill-inc/biomes-game": {
+  "homepage_status": 200,
+  "source": "capture:https://www.biomes.gg",
+  "screenshot": "screenshots/ill-inc-biomes-game.jpg"
+ },
+ "Kevin-Liu-01/Claude-of-Tanks": {
+  "homepage_status": 200,
+  "source": "capture:https://cot.kevinliu.studio",
+  "screenshot": "screenshots/kevin-liu-01-claude-of-tanks.jpg"
+ },
+ "mrdoob/three-quake": {
+  "homepage_status": 200,
+  "source": "capture:https://mrdoob.github.io/three-quake/",
+  "screenshot": "screenshots/mrdoob-three-quake.jpg"
+ },
+ "corosolto/client": {
+  "homepage_status": 200,
+  "source": "capture:https://csbrasil.online",
+  "screenshot": "screenshots/corosolto-client.jpg"
+ },
+ "AgentsLoop/awesome-opus-5.5-games": {
+  "homepage_status": 200,
+  "source": "capture:https://lolgames.net/",
+  "screenshot": "screenshots/agentsloop-awesome-opus-5-5-games.jpg"
+ },
+ "xinntao/Real-ESRGAN": {
+  "screenshot": "screenshots/xinntao-real-esrgan.jpg",
+  "source": "social-preview"
+ },
+ "voideditor/void": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/voideditor-void.jpg",
+  "source": "https://raw.githubusercontent.com/voideditor/void/main/src/vs/workbench/browser/parts/editor/media/slice_of_void.png"
+ },
+ "gd3kr/BlenderGPT": {
+  "screenshot": "screenshots/gd3kr-blendergpt.jpg",
+  "source": "social-preview"
+ },
+ "keijiro/AICommand": {
+  "screenshot": "screenshots/keijiro-aicommand.jpg",
+  "source": "https://user-images.githubusercontent.com/343936/226172223-acfba006-8621-425f-a697-be745a94503f.gif"
+ },
+ "TREE-Ind/Blender-GPT": {
+  "screenshot": "screenshots/tree-ind-blender-gpt.jpg",
+  "source": "github-social-card"
+ },
+ "video2game/video2game": {
+  "screenshot": "screenshots/video2game-video2game.jpg",
+  "source": "https://raw.githubusercontent.com/video2game/video2game/main/assets/video2game.png"
+ },
+ "Keytoyze/Mug-Diffusion": {
+  "screenshot": "screenshots/keytoyze-mug-diffusion.jpg",
+  "source": "https://raw.githubusercontent.com/Keytoyze/Mug-Diffusion/master/asset/bg.jpg"
+ },
+ "charmed-ai/tilemapgen": {
+  "screenshot": "screenshots/charmed-ai-tilemapgen.jpg",
+  "source": "https://raw.githubusercontent.com/charmed-ai/tilemapgen/main/projects/example-project/swatches/01290f26-1fb8-463b-a725-cbfeda354d21.png"
+ },
+ "Tencent/behaviac": {
+  "homepage_status": 0,
+  "screenshot": "screenshots/tencent-behaviac.jpg",
+  "source": "github-social-card"
+ },
+ "bublint/ue5-llama-lora": {
+  "screenshot": "screenshots/bublint-ue5-llama-lora.jpg",
+  "source": "https://raw.githubusercontent.com/bublint/ue5-llama-lora/main/assets/TrainingSettings.PNG"
+ },
+ "huggingface/unity-api": {
+  "screenshot": "screenshots/huggingface-unity-api.jpg",
+  "source": "https://huggingface.co/datasets/huggingface-ml-4-games-course/course-images/resolve/main/en/communication/api_step2.png"
+ },
+ "dilmerv/UnityChatGPT": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/dilmerv-unitychatgpt.jpg",
+  "source": "https://raw.githubusercontent.com/dilmerv/UnityChatGPT/master/docs/images/ChatGPTDemo_1.gif"
+ },
+ "mochi-neko/ChatGPT-API-unity": {
+  "screenshot": "screenshots/mochi-neko-chatgpt-api-unity.jpg",
+  "source": "github-social-card"
+ },
+ "CompVis/stable-diffusion": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/compvis-stable-diffusion.jpg",
+  "source": "https://raw.githubusercontent.com/CompVis/stable-diffusion/main/assets/v1-variants-scores.jpg"
+ },
+ "lllyasviel/ControlNet": {
+  "screenshot": "screenshots/lllyasviel-controlnet.jpg",
+  "source": "https://raw.githubusercontent.com/lllyasviel/ControlNet/main/github_page/he.png"
+ },
+ "Mikubill/sd-webui-controlnet": {
+  "screenshot": "screenshots/mikubill-sd-webui-controlnet.jpg",
+  "source": "https://github.com/Mikubill/sd-webui-controlnet/assets/20929282/261f9a50-ba9c-472f-b398-fced61929c4a"
+ },
+ "Stability-AI/StableStudio": {
+  "screenshot": "screenshots/stability-ai-stablestudio.jpg",
+  "source": "social-preview"
+ },
+ "lllyasviel/LayerDiffuse": {
+  "screenshot": "screenshots/lllyasviel-layerdiffuse.jpg",
+  "source": "github-social-card"
+ },
+ "isekaidev/stable.art": {
+  "homepage_status": 0,
+  "screenshot": "screenshots/isekaidev-stable-art.jpg",
+  "source": "github-social-card"
+ },
+ "coolzilj/Blender-ControlNet": {
+  "screenshot": "screenshots/coolzilj-blender-controlnet.jpg",
+  "source": "github-social-card"
+ },
+ "keijiro/UnityMLStableDiffusion": {
+  "screenshot": "screenshots/keijiro-unitymlstablediffusion.jpg",
+  "source": "https://user-images.githubusercontent.com/343936/228759539-a35a37f2-77d6-4a10-8392-d875b968fea6.gif"
+ },
+ "zzzyuqing/DreamMat": {
+  "screenshot": "screenshots/zzzyuqing-dreammat.jpg",
+  "source": "https://raw.githubusercontent.com/zzzyuqing/DreamMat/main/assets/teaser.png"
+ },
+ "ashawkey/InTeX": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/ashawkey-intex.jpg",
+  "source": "https://raw.githubusercontent.com/ashawkey/InTeX/main/assets/teaser.jpg"
+ },
+ "guoyww/AnimateDiff": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/guoyww-animatediff.jpg",
+  "source": "capture:https://animatediff.github.io"
+ },
+ "openai/shap-e": {
+  "screenshot": "screenshots/openai-shap-e.jpg",
+  "source": "github-social-card"
+ },
+ "ashawkey/stable-dreamfusion": {
+  "screenshot": "screenshots/ashawkey-stable-dreamfusion.jpg",
+  "source": "github-social-card"
+ },
+ "openai/point-e": {
+  "screenshot": "screenshots/openai-point-e.jpg",
+  "source": "github-social-card"
+ },
+ "NVlabs/neuralangelo": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/nvlabs-neuralangelo.jpg",
+  "source": "https://raw.githubusercontent.com/NVlabs/neuralangelo/main/assets/teaser.gif"
+ },
+ "cvlab-columbia/zero123": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/cvlab-columbia-zero123.jpg",
+  "source": "https://raw.githubusercontent.com/cvlab-columbia/zero123/main/teaser.png"
+ },
+ "IDEA-Research/DWPose": {
+  "screenshot": "screenshots/idea-research-dwpose.jpg",
+  "source": "https://raw.githubusercontent.com/IDEA-Research/DWPose/onnx/resources/lalaland.gif"
+ },
+ "keijiro/AIShader": {
+  "screenshot": "screenshots/keijiro-aishader.jpg",
+  "source": "https://user-images.githubusercontent.com/343936/223034386-cf69f2a2-d8ec-4537-9f1b-37051542b1cd.gif"
+ },
+ "ShuhongChen/panic3d-anime-reconstruction": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/shuhongchen-panic3d-anime-reconstruction.jpg",
+  "source": "https://raw.githubusercontent.com/ShuhongChen/panic3d-anime-reconstruction/master/supplementary/teaser.gif"
+ },
+ "3DTopia/3DTopia": {
+  "screenshot": "screenshots/3dtopia-3dtopia.jpg",
+  "source": "https://raw.githubusercontent.com/3DTopia/3DTopia/main/assets/3dtopia.jpeg"
+ },
+ "NVlabs/CALM": {
+  "screenshot": "screenshots/nvlabs-calm.jpg",
+  "source": "https://raw.githubusercontent.com/NVlabs/CALM/main/images/calm_teaser.jpg"
+ },
+ "Stanford-TML/EDGE": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/stanford-tml-edge.jpg",
+  "source": "capture:https://edge-dance.github.io"
+ },
+ "coqui-ai/TTS": {
+  "homepage_status": 0,
+  "screenshot": "screenshots/coqui-ai-tts.jpg",
+  "source": "https://raw.githubusercontent.com/coqui-ai/TTS/main/images/TTS-performance.png"
+ },
+ "suno-ai/bark": {
+  "screenshot": "screenshots/suno-ai-bark.jpg",
+  "source": "https://user-images.githubusercontent.com/5068315/235310676-a4b3b511-90ec-4edf-8153-7ccf14905d73.png"
+ },
+ "svc-develop-team/so-vits-svc": {
+  "screenshot": "screenshots/svc-develop-team-so-vits-svc.jpg",
+  "source": "https://raw.githubusercontent.com/svc-develop-team/so-vits-svc/4.1-Stable/shadowdiffusion.png"
+ },
+ "magenta/magenta": {
+  "screenshot": "screenshots/magenta-magenta.jpg",
+  "source": "github-social-card"
+ },
+ "AIGC-Audio/AudioGPT": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/aigc-audio-audiogpt.jpg",
+  "source": "capture:https://huggingface.co/spaces/AIGC-Audio/AudioGPT"
+ },
+ "openai/jukebox": {
+  "homepage_status": 403,
+  "screenshot": "screenshots/openai-jukebox.jpg",
+  "source": "github-social-card"
+ },
+ "yl4579/StyleTTS2": {
+  "screenshot": "screenshots/yl4579-styletts2.jpg",
+  "source": "github-social-card"
+ },
+ "metavoiceio/metavoice-src": {
+  "homepage_status": 525,
+  "screenshot": "screenshots/metavoiceio-metavoice-src.jpg",
+  "source": "github-social-card"
+ },
+ "riffusion/riffusion-app-hobby": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/riffusion-riffusion-app-hobby.jpg",
+  "source": "capture:https://riffusion.vercel.app"
+ },
+ "haoheliu/AudioLDM2": {
+  "screenshot": "screenshots/haoheliu-audioldm2.jpg",
+  "source": "github-social-card"
+ },
+ "Audio-AGI/WavJourney": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/audio-agi-wavjourney.jpg",
+  "source": "https://raw.githubusercontent.com/Audio-AGI/WavJourney/main/assets/WavJourney.png"
+ },
+ "joonspk-research/generative_agents": {
+  "screenshot": "screenshots/joonspk-research-generative-agents.jpg",
+  "source": "https://raw.githubusercontent.com/joonspk-research/generative_agents/main/cover.png"
+ },
+ "OpenTalker/SadTalker": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/opentalker-sadtalker.jpg",
+  "source": "https://user-images.githubusercontent.com/4397546/222490039-b1f6156b-bf00-405b-9fda-0c9a9156f991.gif"
+ },
+ "fudan-generative-vision/hallo": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/fudan-generative-vision-hallo.jpg",
+  "source": "https://raw.githubusercontent.com/fudan-generative-vision/hallo/main/assets/framework_1.jpg"
+ },
+ "HVision-NKU/StoryDiffusion": {
+  "screenshot": "screenshots/hvision-nku-storydiffusion.jpg",
+  "source": "https://github.com/HVision-NKU/StoryDiffusion/assets/49511209/b3771cbc-b6ca-4e26-bdc5-d944daf9f266"
+ },
+ "Zejun-Yang/AniPortrait": {
+  "screenshot": "screenshots/zejun-yang-aniportrait.jpg",
+  "source": "https://raw.githubusercontent.com/Zejun-Yang/AniPortrait/main/asset/pipeline.png"
+ },
+ "py499372727/AgentSims": {
+  "screenshot": "screenshots/py499372727-agentsims.jpg",
+  "source": "https://raw.githubusercontent.com/py499372727/AgentSims/main/cover.png"
+ },
+ "TencentARC/SEED-Story": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/tencentarc-seed-story.jpg",
+  "source": "https://raw.githubusercontent.com/TencentARC/SEED-Story/master/assets/teaser.jpg"
+ },
+ "cyanff/anime.gf": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/cyanff-anime-gf.jpg",
+  "source": "https://github.com/cyanff/anime.gf/assets/42996044/306d1caf-d6ec-4370-92f6-2328de3a8956"
+ },
+ "GigaxGames/gigax": {
+  "screenshot": "screenshots/gigaxgames-gigax.jpg",
+  "source": "github-social-card"
+ },
+ "MiAO-AI-Lab/LARP": {
+  "screenshot": "screenshots/miao-ai-lab-larp.jpg",
+  "source": "https://raw.githubusercontent.com/MiAO-AI-Lab/LARP/main/images/overview.jpg"
+ },
+ "mluogh/eastworld": {
+  "screenshot": "screenshots/mluogh-eastworld.jpg",
+  "source": "github-social-card"
+ },
+ "boson-ai/RPBench-Auto": {
+  "screenshot": "screenshots/boson-ai-rpbench-auto.jpg",
+  "source": "https://raw.githubusercontent.com/boson-ai/RPBench-Auto/main/figures/rpbench_auto_example.png"
+ },
+ "ykhli/cat-town": {
+  "homepage_status": 401,
+  "screenshot": "screenshots/ykhli-cat-town.jpg",
+  "source": "https://github.com/ykhli/cat-town/assets/3489963/528ae3cd-c0f8-4835-a00d-a7db51f68b1b"
+ },
+ "Tencent/GameAISDK": {
+  "screenshot": "screenshots/tencent-gameaisdk.jpg",
+  "source": "https://raw.githubusercontent.com/Tencent/GameAISDK/master/doc/img/Pic2.png"
+ },
+ "Interactml/iml-unity": {
+  "screenshot": "screenshots/interactml-iml-unity.jpg",
+  "source": "https://raw.githubusercontent.com/Interactml/site/master/images/title_web.png"
+ },
+ "awesome-decomp-games": {
+  "screenshot": "screenshots/awesome-decomp-games.jpg",
+  "source": "capture:https://submitgame.github.io/awesome-decomp-games/"
+ },
+ "um-fal-arsenal": {
+  "screenshot": "screenshots/um-fal-arsenal.jpg",
+  "source": "https://raw.githubusercontent.com/rehan-remade/universal-modder/HEAD/examples/terraria-tmodloader/assets/gen/mothership.jpg"
+ },
+ "um-san-franciscans": {
+  "screenshot": "screenshots/um-san-franciscans.jpg",
+  "source": "https://raw.githubusercontent.com/rehan-remade/universal-modder/HEAD/examples/aoe2-de-civ/assets/gen/wonder.jpg"
+ },
+ "um-minecraft-gta5": {
+  "screenshot": "screenshots/um-minecraft-gta5.jpg",
+  "source": "https://raw.githubusercontent.com/rehan-remade/universal-modder/HEAD/docs/media/mods-teaser.gif"
+ },
+ "awesome-game-mashups": {
+  "screenshot": "screenshots/awesome-game-mashups.jpg",
+  "source": "capture:https://bailo167.github.io/awesome-game-mashups/"
+ }
+}
