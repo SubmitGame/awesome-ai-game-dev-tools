@@ -19,13 +19,13 @@ def table(rows):
     for e in rows:
         img = f'<a href="{e["url"]}"><img src="{e["screenshot"]}" width="120" alt=""></a>' if e.get("screenshot") else ""
         badges = (" 🗄️" if e["archived"] else "")
-        L.append(f"| {img} | **[{esc(e['repo'])}]({e['url']})**{badges} | {k(e['stars'])} | {e['pushed_at'][:10]} | {esc(e['description'])} | {example(e)} |")
+        L.append(f"| {img} | **[{esc(e['repo'])}]({e['url']})**{badges} | {k(e['stars'])} | {e['pushed_at'][:10]} | {esc(e['description'])}{' <br>*Note: ' + esc(e['note']) + '*' if e.get('note') else ''} | {example(e)} |")
     return L + [""]
 def feat_cells(items):
     L = ["<table><tr>"]
     for i, f in enumerate(items):
         img = media.get(f["id"], {}).get("screenshot")
-        L.append(f'<td align="center" valign="top" width="33%"><a href="{f["url"]}"><img src="{img}" width="240" alt=""></a><br><b><a href="{f["url"]}">{f["title"]}</a></b><br><sub>{f["description"]}</sub>' + (f'<br><a href="{f["site"]}">website</a>' if f.get("site") else "") + "</td>")
+        L.append(f'<td align="center" valign="top" width="33%"><a href="{f["url"]}"><img src="{img}" width="240" alt=""></a><br><b><a href="{f["url"]}">{f["title"]}</a></b>' + (f' <code>{f["label"]}</code>' if f.get("label") else "") + '<br><sub>{f["description"]}</sub>' + (f'<br><a href="{f["site"]}">website</a>' if f.get("site") else "") + "</td>")
         if i % 3 == 2 and i + 1 < len(items): L.append("</tr><tr>")
     return L + ["</tr></table>", ""]
 act = [e for e in T if not e["inactive"]]; old = [e for e in T if e["inactive"]]
@@ -34,7 +34,7 @@ L = ["<!-- GENERATED FILE: edit data/ and run scripts/refresh, not this file -->
 "# Awesome AI Game Dev Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)", "",
 "> Open-source AI tools for making games, and for **decompiling, remixing and mashing up the games you already own**. Every entry is a GitHub repo with **100+ stars and a push in the last year**, with real star counts pulled from the GitHub API and refreshed daily.", "",
 f"**{doc['active']} active tools** · {doc['inactive']} inactive · updated {doc['generated_at'][:10]} · browse with tag filters on the **[website]({SITE})** · data in [`data/tools.json`](data/tools.json)", "",
-"## Contents", "", "1. [Decompile, remix & mash up games](#1-decompile-remix--mash-up-games)"]
+"## ⭐ Featured", ""] + feat_cells([f for f in F if f["section"] == "top"]) + ["## Contents", "", "1. [Decompile, remix & mash up games](#1-decompile-remix--mash-up-games)"]
 for sub, name in [("a", "Ground rules"), ("b", "AI reverse engineering"), ("c", "Decomp & recomp projects"), ("d", "Agent-driven modding"), ("e", "Mashups & remixes"), ("f", "AI replacement assets")]:
     L.append(f"   - [{sub}. {name}](#1{sub}-{anchor(name)})")
 for s, v in S.items():

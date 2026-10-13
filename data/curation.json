@@ -63,7 +63,8 @@
   "hzxie/CityDreamer",
   "video2game/video2game",
   "charmed-ai/tilemapgen",
-  "Keytoyze/Mug-Diffusion"
+  "Keytoyze/Mug-Diffusion",
+  "genex-games/genex-desktop"
  ],
  "code": [
   "godotengine/godot",
@@ -153,7 +154,8 @@
   "NVlabs/CALM",
   "Stanford-TML/EDGE",
   "IDEA-Research/DWPose",
-  "NVlabs/neuralangelo"
+  "NVlabs/neuralangelo",
+  "academa-labs/manimgx"
  ],
  "audio": [
   "ace-step/ACE-Step",

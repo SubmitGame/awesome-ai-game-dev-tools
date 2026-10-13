@@ -31,7 +31,7 @@ TAGS = [(r"\bmcp\b|model context protocol", "MCP"), (r"unity", "Unity"), (r"godo
  (r"upscal|esrgan|super-resolution", "Upscaling"), (r"diffusion|text-to-image|image generation", "Image gen"), (r"local|offline|on-device|cpu", "Local")]
 def age(iso): return (datetime.now(timezone.utc) - datetime.fromisoformat(iso.replace("Z", "+00:00"))).days / 365.25
 def main():
-    cur = load("data/curation.json", {}); media = load("data/media.json", {}); ex = load("data/examples.json", {})
+    cur = load("data/curation.json", {}); media = load("data/media.json", {}); ex = load("data/examples.json", {}); notes = load("data/notes.json", {})
     E = {}
     for e in load("data/enriched.json", []):
         E[e["repo"].lower()] = e
@@ -53,7 +53,7 @@ def main():
             out.append({"id": re.sub(r"[^a-z0-9]+", "-", g["repo"].lower()), "repo": g["repo"], "title": g["repo"].split("/")[1], "url": f"https://github.com/{g['repo']}",
               "section": sec, "description": g["description"][:240], "stars": g["stars"], "pushed_at": g["pushed_at"], "archived": g["archived"],
               "license": g["license"], "homepage": g["homepage"] or None, "tags": tags, "inactive": inactive, "sources": sorted(set(e["sources"])),
-              "example": x, "screenshot": m.get("screenshot"), "screenshot_source": m.get("source")})
+              "example": x, "note": notes.get(g["repo"]), "screenshot": m.get("screenshot"), "screenshot_source": m.get("source")})
     order = list(SECTIONS)
     out.sort(key=lambda e: (e["inactive"], order.index(e["section"]), -e["stars"]))
     counts = {s: sum(1 for e in out if e["section"] == s and not e["inactive"]) for s in order}

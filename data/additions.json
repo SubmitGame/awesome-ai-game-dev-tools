@@ -63,7 +63,8 @@
   "microsoft/TRELLIS",
   "VAST-AI-Research/TripoSR",
   "nv-tlabs/kimodo",
-  "JannisX11/blockbench"
+  "JannisX11/blockbench",
+  "academa-labs/manimgx"
  ],
  "audio": [
   "ace-step/ACE-Step",
@@ -84,5 +85,8 @@
  "showcase": [
   "mrdoob/three-descent",
   "mshumer/Claude-of-Duty"
+ ],
+ "gamegen": [
+  "genex-games/genex-desktop"
  ]
 }

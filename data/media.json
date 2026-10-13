@@ -1017,5 +1017,19 @@
  "awesome-game-mashups": {
   "screenshot": "screenshots/awesome-game-mashups.jpg",
   "source": "capture:https://bailo167.github.io/awesome-game-mashups/"
+ },
+ "genex-games/genex-desktop": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/genex-games-genex-desktop.jpg",
+  "source": "social-preview"
+ },
+ "academa-labs/manimgx": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/academa-labs-manimgx.jpg",
+  "source": "https://manimgx.academa.ai/images/benchmark-quality/manimgx-light.png"
+ },
+ "omgithub": {
+  "screenshot": "screenshots/omgithub.jpg",
+  "source": "capture:https://omgithub.com/"
  }
 }
