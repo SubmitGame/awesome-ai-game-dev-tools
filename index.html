@@ -2,33 +2,43 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Awesome AI Game Dev Tools</title>
 <meta name="description" content="Open-source AI tools for making games and for decompiling, remixing and mashing up games you own. 100+ stars, active in the last year.">
-<style>
-:root{--bg:#0e1116;--panel:#161b22;--line:#2a313c;--fg:#e6edf3;--mut:#8b949e;--acc:#58a6ff;--good:#3fb950}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+<style>:root{--bg:#f4f5f7;--panel:#fff;--line:#dcdee3;--fg:#17181b;--mut:#5d6169;--kick:#505d70;--acc:#0a6e9e;--badge:#066895;--pill:#d7e3f4;--pillb:#a9bfe0;--good:#2f8a3b}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.45 Inter,"Segoe UI",Arial,sans-serif}
 a{color:var(--acc);text-decoration:none}a:hover{text-decoration:underline}
-header,main,footer{max-width:1300px;margin:auto;padding:0 20px}header{padding-top:28px}h1{margin:0 0 6px;font-size:28px}header p{margin:4px 0;color:var(--mut)}
-.legal{background:#1d2430;border:1px solid var(--line);border-radius:8px;padding:10px 14px;color:var(--mut);font-size:13px;margin:12px 0}
-h2{margin:28px 0 6px;font-size:20px}.sd{color:var(--mut);margin:0 0 12px;font-size:14px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
-.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
-.card img{width:100%;aspect-ratio:16/10;object-fit:cover;background:#000;display:block}
-.card .b{padding:10px 12px;flex:1;display:flex;flex-direction:column;gap:5px}.card h3{margin:0;font-size:15.5px;word-break:break-word}
-.meta{color:var(--mut);font-size:12.5px}.desc{font-size:13px;color:#c9d1d9;flex:1}.lk a{margin-right:10px;font-size:13px}
-.tag{display:inline-block;padding:1px 7px;border-radius:10px;border:1px solid var(--line);font-size:11.5px;color:var(--mut);margin:0 4px 3px 0;cursor:pointer}
-.controls{position:sticky;top:0;background:var(--bg);padding:10px 0;z-index:2;border-bottom:1px solid var(--line)}
+header,main,footer{max-width:1300px;margin:auto;padding:0 20px}header{padding-top:24px}h1{margin:0 0 4px;font-size:26px;letter-spacing:-.01em}header p{margin:3px 0;color:var(--mut);font-size:14px}
+.legal{background:#fff;border:1px solid var(--line);border-radius:9px;padding:9px 13px;color:var(--mut);font-size:13px;margin:12px 0}
+h2{margin:26px 0 4px;font-size:19px;letter-spacing:-.01em}h2 .meta{font-weight:500}.sd{color:var(--mut);margin:0 0 12px;font-size:13.5px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:22px 22px}
+.card{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:9px;overflow:hidden;display:flex;flex-direction:column;transition:transform .15s,box-shadow .15s,border-color .15s}
+.card:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(23,24,27,.10);border-color:#c5c9d1}
+.cover{position:relative;display:block;aspect-ratio:1.65/1;background:#e9ebef;overflow:hidden}
+.cover img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .25s}.card:hover .cover img{transform:scale(1.03)}
+.cbadge{position:absolute;top:9px;right:9px;background:var(--badge);color:#fafdff;font-size:9px;font-weight:700;letter-spacing:.06em;padding:3px 7px;border-radius:4px;text-transform:uppercase}
+.cbadge.old{background:#7a7f88}.cbadge.feat{background:#b8860b}
+.arrow{position:absolute;right:9px;bottom:9px;width:27px;height:27px;border-radius:50%;background:rgba(255,255,255,.85);border:1px solid rgba(18,18,18,.07);display:flex;align-items:center;justify-content:center;color:#575757;font-size:13px;opacity:0;transition:opacity .15s}.card:hover .arrow{opacity:1}
+.b{padding:15px 15px 12px;display:flex;flex-direction:column;gap:7px;flex:1}
+.kick{display:flex;align-items:center;justify-content:space-between;gap:6px;font-size:9.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--kick);white-space:nowrap}
+.kick span:first-child{overflow:hidden;text-overflow:ellipsis}
+.ol{border:1px solid #b9bec7;border-radius:999px;padding:1px 7px;font-size:9px;font-weight:600;letter-spacing:.06em;color:var(--kick);flex:none}
+.card h3{margin:0;font-size:15px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.card h3 a{color:var(--fg)}
+.desc{font-size:13px;color:var(--mut);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin:0}
+.prow{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:10px;letter-spacing:.07em;text-transform:uppercase;color:var(--kick)}
+.tag{display:inline-block;background:var(--pill);border:1px solid var(--pillb);color:#1d2a3d;border-radius:999px;padding:2px 9px;font-size:12px;letter-spacing:0;text-transform:none;max-width:140px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.foot{margin-top:auto;border-top:1px solid #e6e8ec;padding-top:10px;display:flex;justify-content:space-between;gap:8px;font-size:12.5px;color:var(--mut)}
+.foot a{color:var(--good)}.foot>span:first-child{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}.foot>span:last-child{white-space:nowrap}.note{font-size:12px;color:#8a5a00;margin:0}
+.controls{position:sticky;top:0;background:var(--bg);padding:10px 0;z-index:3;border-bottom:1px solid var(--line)}
 .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
-input,select{background:var(--panel);color:var(--fg);border:1px solid var(--line);border-radius:6px;padding:7px 9px;font-size:14px}#q{flex:1;min-width:200px}
-.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}.tags button{background:var(--panel);color:var(--fg);border:1px solid var(--line);border-radius:16px;padding:4px 11px;cursor:pointer;font-size:12.5px}
-.tags button.on{background:var(--acc);color:#000;border-color:var(--acc)}
-.rules{columns:2;font-size:13.5px;color:#c9d1d9}@media(max-width:700px){.rules{columns:1}}
+input,select{background:#fff;color:var(--fg);border:1px solid var(--line);border-radius:7px;padding:7px 9px;font-size:14px;font-family:inherit}#q{flex:1;min-width:200px}.meta{color:var(--mut);font-size:12.5px}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}.tags button{background:#fff;color:var(--fg);border:1px solid var(--line);border-radius:999px;padding:3px 10px;cursor:pointer;font-size:12px;font-family:inherit}
+.tags button.on{background:var(--badge);color:#fff;border-color:var(--badge)}
+#tagtog{display:none;background:#fff;color:var(--fg);border:1px solid var(--line);border-radius:7px;padding:7px 9px;font-size:13px;font-family:inherit}
 footer{color:var(--mut);font-size:13px;padding:30px 20px}
-.card img{aspect-ratio:16/9;max-height:140px}.card .b{padding:8px 10px;gap:3px}.desc{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-#tagtog{display:none;background:var(--panel);color:var(--fg);border:1px solid var(--line);border-radius:6px;padding:7px 9px;font-size:13px}
 @media(max-width:700px){header{padding-top:12px}h1{font-size:20px}header p{font-size:12.5px}.legal{font-size:12px;padding:7px 10px}
 .row{flex-wrap:nowrap;gap:5px}#q{min-width:0;flex:1 1 30%;padding:6px}select{flex:0 1 auto;max-width:28%;font-size:12.5px;padding:6px 4px}.row label,#count{display:none}#tagtog{display:block}
 .tags{display:none;flex-wrap:nowrap;overflow-x:auto;margin-top:6px}.tags.open{display:flex}.tags button{flex:none;font-size:11.5px;padding:3px 9px}
-.grid{grid-template-columns:1fr;gap:8px}.card{flex-direction:row}.card>a{flex:0 0 120px}.card img{width:120px;height:100%;min-height:90px;max-height:none;aspect-ratio:auto}
-.card h3{font-size:14px}.desc{font-size:12.5px;-webkit-line-clamp:2}.meta{font-size:11.5px}.tag{font-size:10.5px}h2{font-size:17px;margin:18px 0 4px}.sd{font-size:12.5px}}
+main{padding:0 12px}.grid{grid-template-columns:1fr 1fr;gap:12px}.b{padding:10px 11px 9px;gap:5px}.card h3{font-size:13.5px}.desc{font-size:12px}
+.kick{font-size:8.5px}.ol{display:none}.tag{font-size:11px;padding:1px 7px;max-width:100%}.prow>span.lbl{display:none}.foot{flex-direction:column;gap:2px;font-size:11.5px;padding-top:7px}
+h2{font-size:17px;margin:18px 0 4px}.sd{font-size:12.5px}}
 </style></head><body>
 <header><h1>🎮 Awesome AI Game Dev Tools</h1>
 <p id="stats">Loading…</p>
@@ -56,11 +66,19 @@ Promise.all(['data/tools.json','data/featured.json','data/media.json'].map(u=>fe
  Object.entries(cnt).sort((a,b)=>b[1]-a[1]).forEach(([g,n])=>$('#tags').insertAdjacentHTML('beforeend',`<button data-t="${h(g)}">${h(g)} <span class="meta">${n}</span></button>`));
  $('#tags').onclick=e=>{const b=e.target.closest('button');if(!b)return;const t=b.dataset.t;on.has(t)?on.delete(t):on.add(t);b.classList.toggle('on');draw()};
  ['#q','#sec','#sort','#inact'].forEach(s=>$(s).addEventListener('input',draw));draw()});
-function ex(t){if(t.example)return `<a href="${t.example.url}">example: ${h(t.example.label)}</a>`;const m=M[t.repo]||{};return t.homepage&&m.homepage_status>=200&&m.homepage_status<400?`<a href="${h(t.homepage)}">site / demo</a>`:''}
-function card(t){return `<div class="card"><a href="${t.url}"><img loading="lazy" src="${t.screenshot}" alt=""></a><div class="b"><h3><a href="${t.url}">${h(t.repo)}</a>${t.archived?' 🗄️':''}</h3>
-<div class="meta">⭐ ${k(t.stars)} · pushed ${t.pushed_at.slice(0,10)}${t.license&&t.license!='NOASSERTION'?' · '+h(t.license):''}</div><div class="desc">${h(t.description)}${t.note?`<br><i class="meta">Note: ${h(t.note)}</i>`:''}</div>
-<div>${t.tags.map(g=>`<span class="tag">${h(g)}</span>`).join('')}</div><div class="lk"><a href="${t.url}">repo</a>${ex(t)}</div></div></div>`}
-function fcard(f){const i=(M[f.id]||{}).screenshot;return `<div class="card"><a href="${f.url}"><img loading="lazy" src="${i}" alt=""></a><div class="b"><h3><a href="${f.url}">${h(f.title)}</a>${f.label?` <span class="tag">${h(f.label)}</span>`:''}</h3><div class="desc">${h(f.description)}</div><div class="lk"><a href="${f.url}">open</a>${f.site?`<a href="${f.site}">website</a>`:''}</div></div></div>`}
+function ago(s){const d=(Date.now()-Date.parse(s))/864e5;return d<1?'Updated today':d<2?'Updated 1 day ago':d<30?`Updated ${Math.floor(d)} days ago`:d<365?`Updated ${Math.floor(d/30)} mo ago`:`Updated ${(d/365).toFixed(1)} yr ago`}
+function ex(t){if(t.example)return `<a href="${t.example.url}">Example ↗</a>`;const m=M[t.repo]||{};return t.homepage&&m.homepage_status>=200&&m.homepage_status<400?`<a href="${h(t.homepage)}">Site / demo ↗</a>`:'<span></span>'}
+function badge(t){if(t.archived)return '<span class="cbadge old">Archived</span>';if(t.inactive)return '<span class="cbadge old">Inactive</span>';return (Date.now()-Date.parse(t.pushed_at))/864e5<7?'<span class="cbadge">Active</span>':''}
+function card(t){const s=D.sections[t.section];const lic=t.license&&t.license!='NOASSERTION'?`<span class="ol">${h(t.license)}</span>`:'';
+return `<div class="card"><a class="cover" href="${t.url}"><img loading="lazy" src="${t.screenshot}" alt="">${badge(t)}<span class="arrow">↗</span></a><div class="b">
+<div class="kick"><span>${h(s.name)}${t.tags[0]?' · '+h(t.tags[0]):''}</span>${lic}</div>
+<h3><a href="${t.url}" title="${h(t.repo)}">${h(t.title)}</a></h3><p class="desc">${h(t.description)}</p>${t.note?`<p class="note">Note: ${h(t.note)}</p>`:''}
+${t.tags.length?`<div class="prow"><span class="lbl">Tags</span>${t.tags.slice(0,3).map(g=>`<span class="tag">${h(g)}</span>`).join('')}</div>`:''}
+<div class="foot"><span>⭐ ${k(t.stars)} · ${h(t.repo.split('/')[0])}</span><span>${ago(t.pushed_at)}</span></div><div class="foot" style="border:0;padding:0;margin:0">${ex(t)}</div></div></div>`}
+function fcard(f){const i=(M[f.id]||{}).screenshot;const lb=f.label||(f.section=='decomp'?'Companion list':'Demo');
+return `<div class="card"><a class="cover" href="${f.url}"><img loading="lazy" src="${i}" alt=""><span class="cbadge${f.label?' feat':''}">${h(lb)}</span><span class="arrow">↗</span></a><div class="b">
+<div class="kick"><span>${f.section=='top'?'Featured':f.section=='decomp'?'Decomp & recomp':'Mashups & remixes'}</span></div><h3><a href="${f.url}">${h(f.title)}</a></h3><p class="desc">${h(f.description)}</p>
+<div class="foot"><span>${f.label?'No GitHub repo · no stars':'Featured item'}</span>${f.site?`<a href="${f.site}">Website ↗</a>`:`<a href="${f.url}">Open ↗</a>`}</div></div></div>`}
 function draw(){const q=$('#q').value.toLowerCase(),sec=$('#sec').value,srt=$('#sort').value,ia=$('#inact').checked;
  let L=D.tools.filter(t=>(ia||!t.inactive)&&(!sec||t.section==sec)&&[...on].every(g=>t.tags.includes(g))&&(!q||(t.repo+' '+t.description+' '+t.tags.join(' ')).toLowerCase().includes(q)));
  let fs=F.filter(f=>!on.size&&(!sec||f.section==sec||(sec=='reverse'&&f.section=='decomp'))&&(!q||(f.title+' '+f.description).toLowerCase().includes(q)));
