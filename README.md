@@ -9,12 +9,11 @@
 
 1. [Decompile, remix & mash up games](#1-decompile-remix--mash-up-games)
    - [📚 Learn: Decompile, Remix & Mash Up](#-learn-decompile-remix--mash-up)
-   - [a. Ground rules](#1a-ground-rules)
-   - [b. AI reverse engineering](#1b-ai-reverse-engineering)
-   - [c. Decomp & recomp projects](#1c-decomp--recomp-projects)
-   - [d. Agent-driven modding](#1d-agent-driven-modding)
-   - [e. Mashups & remixes](#1e-mashups--remixes)
-   - [f. AI replacement assets](#1f-ai-replacement-assets)
+   - [a. AI reverse engineering](#1a-ai-reverse-engineering)
+   - [b. Decomp & recomp projects](#1b-decomp--recomp-projects)
+   - [c. Agent-driven modding](#1c-agent-driven-modding)
+   - [d. Mashups & remixes](#1d-mashups--remixes)
+   - [e. AI replacement assets](#1e-ai-replacement-assets)
 2. [Agents & MCP servers](#2-agents--mcp-servers) (20)
 3. [Game generation & world models](#3-game-generation--world-models) (13)
 4. [Code & engines](#4-code--engines) (13)
@@ -30,14 +29,6 @@
 ## 1. Decompile, remix & mash up games
 
 Point an AI agent at a game you own: read its binary, rebuild it from a decomp, mod it, mash it up with another game, or regenerate its assets.
-
-### 1a. Ground rules
-
-> [!IMPORTANT]
-> - **Only use games you own.** Work from your own legally obtained copy.
-> - **No ROMs, ISOs or disc images.** This list does not host, link to or help find them, and neither should your mod.
-> - Don't ship the original game's files or decompiled code; ship code, patches, converters and your own assets.
-> - Stay out of online games with anti-cheat, and don't bypass DRM or ownership checks.
 
 ### 📚 Learn: Decompile, Remix & Mash Up
 
@@ -105,7 +96,7 @@ Explainers, guides and talks, picked by hand. Channel, views and dates are real,
 
 </details>
 
-### 1b. AI reverse engineering
+### 1a. AI reverse engineering
 
 MCP servers and agent tools that let a coding agent read, label and explain binaries of games you own.
 
@@ -120,7 +111,7 @@ MCP servers and agent tools that let a coding agent read, label and explain bina
 | <a href="https://github.com/bethington/ghidra-mcp"><img src="screenshots/bethington-ghidra-mcp.jpg" width="120" alt=""></a> | **[bethington/ghidra-mcp](https://github.com/bethington/ghidra-mcp)** | 5.6k | 2026-10-13 | Ghidra MCP Server — 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcement, batch operations, Ghidra Server integration, and Docker deployment. |  |
 | <a href="https://github.com/clearbluejar/pyghidra-mcp"><img src="screenshots/clearbluejar-pyghidra-mcp.jpg" width="120" alt=""></a> | **[clearbluejar/pyghidra-mcp](https://github.com/clearbluejar/pyghidra-mcp)** | 443 | 2026-10-10 | Python Command-Line Ghidra MCP |  |
 
-### 1c. Decomp & recomp projects
+### 1b. Decomp & recomp projects
 
 Hundreds of decompiled and recompiled games are tracked in our companion list, so they are not duplicated here.
 
@@ -128,7 +119,7 @@ Hundreds of decompiled and recompiled games are tracked in our companion list, s
 <td align="center" valign="top" width="33%"><a href="https://github.com/SubmitGame/awesome-decomp-games"><img src="screenshots/awesome-decomp-games.jpg" width="240" alt=""></a><br><b><a href="https://github.com/SubmitGame/awesome-decomp-games">Awesome Decomp Games</a></b><br><sub>{f["description"]}</sub><br><a href="https://submitgame.github.io/awesome-decomp-games/">website</a></td>
 </tr></table>
 
-### 1d. Agent-driven modding
+### 1c. Agent-driven modding
 
 Agents that find a game's engine, read its code and build mods for it.
 
@@ -136,7 +127,7 @@ Agents that find a game's engine, read its code and build mods for it.
 |---|---|---|---|---|---|
 | <a href="https://github.com/rehan-remade/universal-modder"><img src="screenshots/rehan-remade-universal-modder.jpg" width="120" alt=""></a> | **[rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder)** | 7.2k | 2026-10-13 | Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos. | [Fal Arsenal Terraria mod](https://github.com/rehan-remade/universal-modder/tree/HEAD/examples/terraria-tmodloader) |
 
-### 1e. Mashups & remixes
+### 1d. Mashups & remixes
 
 Mods built by AI agents with universal-modder, plus a curated list of human-made crossovers.
 
@@ -148,7 +139,7 @@ Mods built by AI agents with universal-modder, plus a curated list of human-made
 <td align="center" valign="top" width="33%"><a href="https://github.com/bailo167/awesome-game-mashups"><img src="screenshots/awesome-game-mashups.jpg" width="240" alt=""></a><br><b><a href="https://github.com/bailo167/awesome-game-mashups">bailo167/awesome-game-mashups</a></b><br><sub>{f["description"]}</sub><br><a href="https://bailo167.github.io/awesome-game-mashups/">website</a></td>
 </tr></table>
 
-### 1f. AI replacement assets
+### 1e. AI replacement assets
 
 Upscalers and remaster toolkits for making new textures, models and lighting for games you own.
 

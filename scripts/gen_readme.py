@@ -49,23 +49,17 @@ L = ["<!-- GENERATED FILE: edit data/ and run scripts/refresh, not this file -->
 f"**{doc['active']} active tools** · {doc['inactive']} inactive · updated {doc['generated_at'][:10]} · browse with tag filters on the **[website]({SITE})** · data in [`data/tools.json`](data/tools.json)", "",
 "## Contents", "", "1. [Decompile, remix & mash up games](#1-decompile-remix--mash-up-games)"]
 L.append("   - [📚 Learn: Decompile, Remix & Mash Up](#-learn-decompile-remix--mash-up)")
-for sub, name in [("a", "Ground rules"), ("b", "AI reverse engineering"), ("c", "Decomp & recomp projects"), ("d", "Agent-driven modding"), ("e", "Mashups & remixes"), ("f", "AI replacement assets")]:
+for sub, name in [("a", "AI reverse engineering"), ("b", "Decomp & recomp projects"), ("c", "Agent-driven modding"), ("d", "Mashups & remixes"), ("e", "AI replacement assets")]:
     L.append(f"   - [{sub}. {name}](#1{sub}-{anchor(name)})")
 for s, v in S.items():
     if v["num"] != "1": L.append(f"{v['num']}. [{v['name']}](#{v['num']}-{anchor(v['name'])}) ({len(sec(s))})")
 L += [f"11. [Inactive / unmaintained](#11-inactive--unmaintained) ({len(old)})", "- [Inclusion rules](#inclusion-rules) · [Sources](#sources) · [Contributing](#contributing) · [License](#license)", ""]
 L += ["## 1. Decompile, remix & mash up games", "", "Point an AI agent at a game you own: read its binary, rebuild it from a decomp, mod it, mash it up with another game, or regenerate its assets.", "",
-"### 1a. Ground rules", "",
-"> [!IMPORTANT]",
-"> - **Only use games you own.** Work from your own legally obtained copy.",
-"> - **No ROMs, ISOs or disc images.** This list does not host, link to or help find them, and neither should your mod.",
-"> - Don't ship the original game's files or decompiled code; ship code, patches, converters and your own assets.",
-"> - Stay out of online games with anti-cheat, and don't bypass DRM or ownership checks.", "",
-] + learn_block() + ["### 1b. AI reverse engineering", "", S["reverse"]["description"], ""] + table(sec("reverse"))
-L += ["### 1c. Decomp & recomp projects", "", "Hundreds of decompiled and recompiled games are tracked in our companion list, so they are not duplicated here.", ""] + feat_cells([f for f in F if f["section"] == "decomp"])
-L += ["### 1d. Agent-driven modding", "", S["modding"]["description"], ""] + table(sec("modding"))
-L += ["### 1e. Mashups & remixes", "", "Mods built by AI agents with universal-modder, plus a curated list of human-made crossovers.", ""] + feat_cells([f for f in F if f["section"] == "mashups"]) + (table(sec("mashups")) if sec("mashups") else [])
-L += ["### 1f. AI replacement assets", "", S["replacement"]["description"], ""] + table(sec("replacement"))
+] + learn_block() + ["### 1a. AI reverse engineering", "", S["reverse"]["description"], ""] + table(sec("reverse"))
+L += ["### 1b. Decomp & recomp projects", "", "Hundreds of decompiled and recompiled games are tracked in our companion list, so they are not duplicated here.", ""] + feat_cells([f for f in F if f["section"] == "decomp"])
+L += ["### 1c. Agent-driven modding", "", S["modding"]["description"], ""] + table(sec("modding"))
+L += ["### 1d. Mashups & remixes", "", "Mods built by AI agents with universal-modder, plus a curated list of human-made crossovers.", ""] + feat_cells([f for f in F if f["section"] == "mashups"]) + (table(sec("mashups")) if sec("mashups") else [])
+L += ["### 1e. AI replacement assets", "", S["replacement"]["description"], ""] + table(sec("replacement"))
 for s, v in S.items():
     if v["num"] == "1": continue
     L += [f"## {v['num']}. {v['name']}", "", v["description"], ""] + table(sec(s))

@@ -45,7 +45,6 @@ h2{font-size:17px;margin:18px 0 4px}.sd{font-size:12.5px}}
 <p><a href="https://github.com/SubmitGame/awesome-ai-game-dev-tools">GitHub repo</a> · <a href="data/tools.json">tools.json</a> · <a href="https://github.com/SubmitGame/awesome-ai-game-dev-tools/blob/main/CONTRIBUTING.md">Add a tool</a> · <a href="https://submitgame.github.io/awesome-decomp-games/">Awesome Decomp Games</a></p></header>
 <main>
 <div id="top"></div>
-<div class="legal"><b>Ground rules for section 1:</b> only use games you own. No ROMs, ISOs or disc images: this site doesn't host or link to them. Don't ship original game files or decompiled code, and stay out of online games with anti-cheat.</div>
 <div class="controls"><div class="row">
 <input id="q" type="search" placeholder="Search tools, descriptions, tags…" aria-label="Search">
 <select id="sec" aria-label="Section"><option value="">All sections</option></select>
@@ -58,7 +57,7 @@ h2{font-size:17px;margin:18px 0 4px}.sd{font-size:12.5px}}
 <footer>Every entry: 100+ GitHub stars and a push in the last year (inactive = archived or no push for 2+ years). Stars come from the GitHub API, refreshed daily. List CC0, code MIT.</footer>
 <script>
 const $=s=>document.querySelector(s),k=n=>n>=1000?(n/1000).toFixed(1)+'k':n,h=s=>(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const TOPF=f=>`<h2>⭐ Featured</h2><div class="grid">${f.map(fcard).join('')}</div>`;const SUB={reverse:'1b',modding:'1d',mashups:'1e',replacement:'1f'};let D,F,M,LR,on=new Set();
+const TOPF=f=>`<h2>⭐ Featured</h2><div class="grid">${f.map(fcard).join('')}</div>`;const SUB={reverse:'1a',modding:'1c',mashups:'1d',replacement:'1e'};let D,F,M,LR,on=new Set();
 Promise.all(['data/tools.json','data/featured.json','data/media.json','data/learn.json'].map(u=>fetch(u).then(r=>r.json()))).then(([d,f,m,l])=>{LR=l;D=d;F=f.filter(x=>x.section!='top');M=m;document.getElementById('top').innerHTML=TOPF(f.filter(x=>x.section=='top'));
  $('#stats').textContent=`${d.active} active tools · ${d.inactive} inactive · updated ${d.generated_at.slice(0,10)}`;
  for(const [s,v] of Object.entries(d.sections))$('#sec').insertAdjacentHTML('beforeend',`<option value="${s}">${SUB[s]||v.num}. ${h(v.name)}</option>`);
