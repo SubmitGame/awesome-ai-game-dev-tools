@@ -3,13 +3,7 @@
 
 > Open-source AI tools for making games, and for **decompiling, remixing and mashing up the games you already own**. Every entry is a GitHub repo with **100+ stars and a push in the last year**, with real star counts pulled from the GitHub API and refreshed daily.
 
-**159 active tools** · 61 inactive · updated 2026-10-13 · browse with tag filters on the **[website](https://submitgame.github.io/awesome-ai-game-dev-tools/)** · data in [`data/tools.json`](data/tools.json)
-
-## ⭐ Featured
-
-<table><tr>
-<td align="center" valign="top" width="33%"><a href="https://omgithub.com"><img src="screenshots/omgithub.jpg" width="240" alt=""></a><br><b><a href="https://omgithub.com">OmGithub</a></b> <code>Featured</code><br><sub>{f["description"]}</sub><br><a href="https://omgithub.com">website</a></td>
-</tr></table>
+**159 active tools** · 61 inactive · updated 2026-10-14 · browse with tag filters on the **[website](https://submitgame.github.io/awesome-ai-game-dev-tools/)** · data in [`data/tools.json`](data/tools.json)
 
 ## Contents
 
