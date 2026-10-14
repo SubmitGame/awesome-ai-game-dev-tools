@@ -58,7 +58,7 @@ h2{font-size:17px;margin:18px 0 4px}.sd{font-size:12.5px}}
 <footer>Every entry: 100+ GitHub stars and a push in the last year (inactive = archived or no push for 2+ years). Stars come from the GitHub API, refreshed daily. List CC0, code MIT.</footer>
 <script>
 const $=s=>document.querySelector(s),k=n=>n>=1000?(n/1000).toFixed(1)+'k':n,h=s=>(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const TOPF=f=>`<h2>⭐ Featured</h2><div class="grid">${f.map(fcard).join('')}</div>`;const SUB={reverse:'1a',modding:'1c',mashups:'1d',replacement:'1e'};let D,F,M,LR,on=new Set();
+const TOPF=f=>`<h2>⭐ Featured</h2><div class="grid">${f.map(fcard).join('')}</div>`;const SUB={reverse:'1a',decomp:'1b',modding:'1c',mashups:'1d',replacement:'1e'};let D,F,M,LR,on=new Set();
 Promise.all(['data/tools.json','data/featured.json','data/media.json','data/learn.json'].map(u=>fetch(u).then(r=>r.json()))).then(([d,f,m,l])=>{LR=l;D=d;F=f.filter(x=>x.section!='top');M=m;document.getElementById('top').innerHTML=TOPF(f.filter(x=>x.section=='top'));
  $('#stats').textContent=`${d.active} active tools · ${d.inactive} inactive · updated ${d.generated_at.slice(0,10)}`;
  for(const [s,v] of Object.entries(d.sections))$('#sec').insertAdjacentHTML('beforeend',`<option value="${s}">${SUB[s]||v.num}. ${h(v.name)}</option>`);
@@ -92,9 +92,10 @@ function draw(){const q=$('#q').value.toLowerCase(),sec=$('#sec').value,srt=$('#
  let fs=F.filter(f=>!on.size&&(!sec||f.section==sec||(sec=='reverse'&&f.section=='decomp'))&&(!q||(f.title+' '+f.description).toLowerCase().includes(q)));
  $('#count').textContent=L.length+' tools';let o='';
  if(srt!='sec'){L.sort((a,b)=>srt=='stars'?b.stars-a.stars:b.pushed_at.localeCompare(a.pushed_at));o=(sec?'':learnHTML(q))+`<div class="grid">${fs.map(fcard).join('')}${L.map(card).join('')}</div>`}
- else{for(const [s,v] of Object.entries(D.sections)){const r=L.filter(t=>t.section==s&&!t.inactive),ff=fs.filter(f=>f.section==s||(s=='reverse'&&f.section=='decomp'));
+ else{const SECS=[];for(const [s,v] of Object.entries(D.sections)){SECS.push([s,v]);if(s=='reverse')SECS.push(['decomp',{name:'Decomp & recomp projects',description:'Hundreds of decompiled and recompiled games are tracked in our companion list, so they are not duplicated here.'}])}
+  for(const [s,v] of SECS){const r=L.filter(t=>t.section==s&&!t.inactive),ff=fs.filter(f=>f.section==s);
   if(s=='reverse'){o+=`<h2>1. Decompile, remix &amp; mash up games</h2><p class="sd">Point an agent at a game you own: read its binary, rebuild it, mod it, mash it up, or regenerate its assets.</p>`;if(!sec)o+=learnHTML(q)}
-  if(!r.length&&!ff.length)continue;o+=`<h2>${SUB[s]||v.num}. ${h(v.name)} <span class="meta">${r.length}</span></h2><p class="sd">${h(v.description)}</p><div class="grid">${ff.map(fcard).join('')}${r.map(card).join('')}</div>`}
+  if(!r.length&&!ff.length)continue;o+=`<h2>${SUB[s]||v.num}. ${h(v.name)} <span class="meta">${r.length+ff.length}</span></h2><p class="sd">${h(v.description)}</p><div class="grid">${ff.map(fcard).join('')}${r.map(card).join('')}</div>`}
   const old=L.filter(t=>t.inactive);if(old.length)o+=`<h2>11. Inactive / unmaintained <span class="meta">${old.length}</span></h2><p class="sd">Archived or no push since ${D.inactive_cutoff}.</p><div class="grid">${old.map(card).join('')}</div>`}
  $('#out').innerHTML=o||'<p class="meta">No matches.</p>'}
 </script></body></html>
