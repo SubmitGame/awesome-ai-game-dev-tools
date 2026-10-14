@@ -14,7 +14,7 @@ h2{margin:26px 0 4px;font-size:19px;letter-spacing:-.01em}h2 .meta{font-weight:5
 .cover{position:relative;display:block;aspect-ratio:1.65/1;background:#e9ebef;overflow:hidden}
 .cover img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .25s}.card:hover .cover img{transform:scale(1.03)}
 .cbadge{position:absolute;top:9px;right:9px;background:var(--badge);color:#fafdff;font-size:9px;font-weight:700;letter-spacing:.06em;padding:3px 7px;border-radius:4px;text-transform:uppercase}
-.cbadge.old{background:#7a7f88}.cbadge.feat{background:#b8860b}
+.cbadge.old{background:#7a7f88}.cbadge.vid{background:#c4302b}.cbadge.feat{background:#b8860b}
 .arrow{position:absolute;right:9px;bottom:9px;width:27px;height:27px;border-radius:50%;background:rgba(255,255,255,.85);border:1px solid rgba(18,18,18,.07);display:flex;align-items:center;justify-content:center;color:#575757;font-size:13px;opacity:0;transition:opacity .15s}.card:hover .arrow{opacity:1}
 .b{padding:15px 15px 12px;display:flex;flex-direction:column;gap:7px;flex:1}
 .kick{display:flex;align-items:center;justify-content:space-between;gap:6px;font-size:9.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--kick);white-space:nowrap}
@@ -58,12 +58,12 @@ h2{font-size:17px;margin:18px 0 4px}.sd{font-size:12.5px}}
 <footer>Every entry: 100+ GitHub stars and a push in the last year (inactive = archived or no push for 2+ years). Stars come from the GitHub API, refreshed daily. List CC0, code MIT.</footer>
 <script>
 const $=s=>document.querySelector(s),k=n=>n>=1000?(n/1000).toFixed(1)+'k':n,h=s=>(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const TOPF=f=>`<h2>⭐ Featured</h2><div class="grid">${f.map(fcard).join('')}</div>`;const SUB={reverse:'1b',modding:'1d',mashups:'1e',replacement:'1f'};let D,F,M,on=new Set();
-Promise.all(['data/tools.json','data/featured.json','data/media.json'].map(u=>fetch(u).then(r=>r.json()))).then(([d,f,m])=>{D=d;F=f.filter(x=>x.section!='top');M=m;document.getElementById('top').innerHTML=TOPF(f.filter(x=>x.section=='top'));
+const TOPF=f=>`<h2>⭐ Featured</h2><div class="grid">${f.map(fcard).join('')}</div>`;const SUB={reverse:'1b',modding:'1d',mashups:'1e',replacement:'1f'};let D,F,M,LR,on=new Set();
+Promise.all(['data/tools.json','data/featured.json','data/media.json','data/learn.json'].map(u=>fetch(u).then(r=>r.json()))).then(([d,f,m,l])=>{LR=l;D=d;F=f.filter(x=>x.section!='top');M=m;document.getElementById('top').innerHTML=TOPF(f.filter(x=>x.section=='top'));
  $('#stats').textContent=`${d.active} active tools · ${d.inactive} inactive · updated ${d.generated_at.slice(0,10)}`;
  for(const [s,v] of Object.entries(d.sections))$('#sec').insertAdjacentHTML('beforeend',`<option value="${s}">${SUB[s]||v.num}. ${h(v.name)}</option>`);
  const cnt={};d.tools.forEach(t=>t.tags.forEach(g=>cnt[g]=(cnt[g]||0)+1));
- Object.entries(cnt).sort((a,b)=>b[1]-a[1]).forEach(([g,n])=>$('#tags').insertAdjacentHTML('beforeend',`<button data-t="${h(g)}">${h(g)} <span class="meta">${n}</span></button>`));
+ $('#tags').insertAdjacentHTML('beforeend',`<button data-t="Learn">Learn <span class="meta">${l.items.length}</span></button>`);Object.entries(cnt).sort((a,b)=>b[1]-a[1]).forEach(([g,n])=>$('#tags').insertAdjacentHTML('beforeend',`<button data-t="${h(g)}">${h(g)} <span class="meta">${n}</span></button>`));
  $('#tags').onclick=e=>{const b=e.target.closest('button');if(!b)return;const t=b.dataset.t;on.has(t)?on.delete(t):on.add(t);b.classList.toggle('on');draw()};
  ['#q','#sec','#sort','#inact'].forEach(s=>$(s).addEventListener('input',draw));draw()});
 function ago(s){const d=(Date.now()-Date.parse(s))/864e5;return d<1?'Updated today':d<2?'Updated 1 day ago':d<30?`Updated ${Math.floor(d)} days ago`:d<365?`Updated ${Math.floor(d/30)} mo ago`:`Updated ${(d/365).toFixed(1)} yr ago`}
@@ -79,13 +79,21 @@ function fcard(f){const i=(M[f.id]||{}).screenshot;const lb=f.label||(f.section=
 return `<div class="card"><a class="cover" href="${f.url}"><img loading="lazy" src="${i}" alt=""><span class="cbadge${f.label?' feat':''}">${h(lb)}</span><span class="arrow">↗</span></a><div class="b">
 <div class="kick"><span>${f.section=='top'?'Featured':f.section=='decomp'?'Decomp & recomp':'Mashups & remixes'}</span></div><h3><a href="${f.url}">${h(f.title)}</a></h3><p class="desc">${h(f.description)}</p>
 <div class="foot"><span>${f.label?'No GitHub repo · no stars':'Featured item'}</span>${f.site?`<a href="${f.site}">Website ↗</a>`:`<a href="${f.url}">Open ↗</a>`}</div></div></div>`}
+function nfmt(n){return n>=1e6?(n/1e6).toFixed(1)+'M':n>=1e3?(n/1e3).toFixed(n>=1e4?0:1)+'K':n}
+function lcardf(x){return `<div class="card"><a class="cover" href="${x.url}"><img loading="lazy" src="${x.image}" alt=""><span class="cbadge${x.kind=='Video'?' vid':''}">${x.kind}</span><span class="arrow">↗</span></a><div class="b">
+<div class="kick"><span>Learn · ${h(LR.subsections[x.sub])}</span></div><h3><a href="${x.url}" title="${h(x.title)}">${h(x.title)}</a></h3>${x.desc?`<p class="desc">${h(x.desc.replace(/\[([^\]]+)\]\([^)]+\)/g,'$1'))}</p>`:''}
+<div class="prow"><span class="tag">Learn</span></div><div class="foot"><span>${h(x.by)}</span><span>${x.kind=='Video'?nfmt(x.views)+' views · '+x.date:'Guide'}</span></div></div></div>`}
+function learnHTML(q){const tg=[...on].filter(t=>t!='Learn');if(tg.length)return '';const L=LR.items.filter(x=>!q||(x.title+' '+x.by+' '+(x.desc||'')+' learn').toLowerCase().includes(q));if(!L.length)return '';
+let o=`<h2>📚 Learn: Decompile, Remix &amp; Mash Up <span class="meta">${L.length}</span></h2><p class="sd">Explainers, guides and talks, picked by hand. Views and dates as of ${LR.as_of}.</p>`;
+for(const [k,n] of Object.entries(LR.subsections)){const r=L.filter(x=>x.sub==k);if(r.length)o+=`<h2 style="font-size:15px;margin-top:14px">${h(n)} <span class="meta">${r.length}</span></h2><div class="grid">${r.map(lcardf).join('')}</div>`}
+return o+`<details style="margin:14px 0"><summary class="meta" style="cursor:pointer">Trend watch</summary><ul>${LR.trend.map(t=>`<li class="sd"><a href="${t.url}">${h(t.by)}, ${t.date}</a>: ${h(t.text)}</li>`).join('')}</ul></details>`}
 function draw(){const q=$('#q').value.toLowerCase(),sec=$('#sec').value,srt=$('#sort').value,ia=$('#inact').checked;
- let L=D.tools.filter(t=>(ia||!t.inactive)&&(!sec||t.section==sec)&&[...on].every(g=>t.tags.includes(g))&&(!q||(t.repo+' '+t.description+' '+t.tags.join(' ')).toLowerCase().includes(q)));
+ let L=D.tools.filter(t=>(ia||!t.inactive)&&(!sec||t.section==sec)&&!on.has('Learn')&&[...on].every(g=>t.tags.includes(g))&&(!q||(t.repo+' '+t.description+' '+t.tags.join(' ')).toLowerCase().includes(q)));
  let fs=F.filter(f=>!on.size&&(!sec||f.section==sec||(sec=='reverse'&&f.section=='decomp'))&&(!q||(f.title+' '+f.description).toLowerCase().includes(q)));
  $('#count').textContent=L.length+' tools';let o='';
- if(srt!='sec'){L.sort((a,b)=>srt=='stars'?b.stars-a.stars:b.pushed_at.localeCompare(a.pushed_at));o=`<div class="grid">${fs.map(fcard).join('')}${L.map(card).join('')}</div>`}
+ if(srt!='sec'){L.sort((a,b)=>srt=='stars'?b.stars-a.stars:b.pushed_at.localeCompare(a.pushed_at));o=(sec?'':learnHTML(q))+`<div class="grid">${fs.map(fcard).join('')}${L.map(card).join('')}</div>`}
  else{for(const [s,v] of Object.entries(D.sections)){const r=L.filter(t=>t.section==s&&!t.inactive),ff=fs.filter(f=>f.section==s||(s=='reverse'&&f.section=='decomp'));
-  if(s=='reverse')o+=`<h2>1. Decompile, remix &amp; mash up games</h2><p class="sd">Point an agent at a game you own: read its binary, rebuild it, mod it, mash it up, or regenerate its assets.</p>`;
+  if(s=='reverse'){o+=`<h2>1. Decompile, remix &amp; mash up games</h2><p class="sd">Point an agent at a game you own: read its binary, rebuild it, mod it, mash it up, or regenerate its assets.</p>`;if(!sec)o+=learnHTML(q)}
   if(!r.length&&!ff.length)continue;o+=`<h2>${SUB[s]||v.num}. ${h(v.name)} <span class="meta">${r.length}</span></h2><p class="sd">${h(v.description)}</p><div class="grid">${ff.map(fcard).join('')}${r.map(card).join('')}</div>`}
   const old=L.filter(t=>t.inactive);if(old.length)o+=`<h2>11. Inactive / unmaintained <span class="meta">${old.length}</span></h2><p class="sd">Archived or no push since ${D.inactive_cutoff}.</p><div class="grid">${old.map(card).join('')}</div>`}
  $('#out').innerHTML=o||'<p class="meta">No matches.</p>'}

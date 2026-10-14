@@ -1,0 +1,24 @@
+{"subsections": [
+ {"key": "start", "name": "Start here (explainers)", "items": ["wIe3eDfGKUo","dAzs_rU6080","s95Q7D0WR40","h5zkzon0gM4","rRQzrQLZRWM","jtfpCGsbSJU","Pl7ThC4PiVA","mYZPHdKKMaI","cX2kD2yQf88"]},
+ {"key": "mashup", "name": "Mash up games with an agent", "items": [
+   {"title": "universal-modder.dev", "url": "https://universal-modder.dev", "by": "universal-modder", "kind": "Guide", "desc": "Project site: install the skills and point your coding agent at a game you own."},
+   {"title": "skills/mashup-mods", "url": "https://github.com/rehan-remade/universal-modder/tree/HEAD/skills/mashup-mods", "by": "universal-modder", "kind": "Guide", "desc": "The agent skill for combining two games: what to bring across and how to wire it in."},
+   {"title": "examples/minecraft-gta5-passthrough", "url": "https://github.com/rehan-remade/universal-modder/tree/HEAD/examples/minecraft-gta5-passthrough", "by": "universal-modder", "kind": "Guide", "desc": "Worked example: real Minecraft depth-composited into GTA V story mode, with field notes.", "image": "https://raw.githubusercontent.com/rehan-remade/universal-modder/HEAD/docs/media/mods-teaser.gif"},
+   {"title": "Universal Modder: a practical guide to AI game modding", "url": "https://huggingface.co/blog/a2aprotocol/universal-modder-a-practical-guide-to-ai-game-modd", "by": "Hugging Face blog (a2aprotocol)", "kind": "Guide", "desc": "Written walkthrough of setting up universal-modder and building a first mod."},
+   "jXsB-WMP0d0","NRBfwTBBD54","zDDdbraq42M","9dDJq1LGBAw","0Uibt85Jtu0","CVwrRn7COyc","jAZ9WQk2UTk","hD-tyU47f84"]},
+ {"key": "re", "name": "AI reverse engineering", "items": [
+   {"title": "rea: native binaries guide", "url": "https://rea.tools/guides/native/", "by": "rea.tools", "kind": "Guide", "desc": "How rea drives Ghidra/IDA on native executables from your agent."},
+   {"title": "rea showcase: TH04 (DOS bullet ring)", "url": "https://rea.tools/showcase/th04/", "by": "rea.tools", "kind": "Guide", "desc": "Recovering a DOS-era Touhou bullet-ring calculation step by step."},
+   {"title": "rea showcase: DX-Ball sound pan", "url": "https://rea.tools/showcase/dx-ball/", "by": "rea.tools", "kind": "Guide", "desc": "Reconstructing DX-Ball's sound-pan calculation from the binary."},
+   {"title": "rea docs: installation + Ghidra DOS / PPC / MIPS / PSP", "url": "https://github.com/morluto/rea/blob/HEAD/docs/installation.md", "by": "morluto/rea", "kind": "Guide", "desc": "Install guide; console targets: [DOS](https://github.com/morluto/rea/blob/HEAD/docs/ghidra-dos.md) · [PowerPC](https://github.com/morluto/rea/blob/HEAD/docs/ghidra-ppc.md) · [MIPS](https://github.com/morluto/rea/blob/HEAD/docs/ghidra-mips.md) · [PSP](https://github.com/morluto/rea/blob/HEAD/docs/ghidra-psp.md).", "image_from": "https://rea.tools/"},
+   {"title": "skills/reverse-engineering/SKILL.md", "url": "https://github.com/rehan-remade/universal-modder/blob/HEAD/skills/reverse-engineering/SKILL.md", "by": "universal-modder", "kind": "Guide", "desc": "universal-modder's agent skill for working out a game's engine and code before modding."},
+   "u2vQapLAW88","ybSWI2cZzIU","sF_Yk0udbZw"]},
+ {"key": "classic", "name": "Classic decomp & recomp", "items": [
+   {"title": "decomp.dev wiki", "url": "https://wiki.decomp.dev/", "by": "decomp.dev", "kind": "Guide", "desc": "Community wiki for matching decompilation: tooling, workflow and how to contribute."},
+   {"title": "N64Recomp wiki", "url": "https://github.com/N64Recomp/N64Recomp/wiki", "by": "N64Recomp", "kind": "Guide", "desc": "How static recompilation of N64 games works and how to use the tool."},
+   "ywWwUuWRgsM","lJVGd7cBGuQ","lpOEhtoc3DY","45HT9YwhPYo"]}
+],
+"trend": [
+ {"url": "https://x.com/rehan_shei/status/2109650540158484913", "by": "Rehan Sheikh (@rehan_shei)", "date": "2026-10-12", "text": "Left fal to start something new; one person with an agent + fal can mash up any game in a weekend, and those mods did 1B+ views in a week.", "likes": 947},
+ {"url": "https://x.com/morluto/status/2109138696008327226", "by": "morluto (@morluto)", "date": "2026-10-11", "text": "rea 6.4 is out and much, much faster.", "likes": 1514}
+]}

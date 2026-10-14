@@ -8,6 +8,7 @@
 ## Contents
 
 1. [Decompile, remix & mash up games](#1-decompile-remix--mash-up-games)
+   - [📚 Learn: Decompile, Remix & Mash Up](#-learn-decompile-remix--mash-up)
    - [a. Ground rules](#1a-ground-rules)
    - [b. AI reverse engineering](#1b-ai-reverse-engineering)
    - [c. Decomp & recomp projects](#1c-decomp--recomp-projects)
@@ -37,6 +38,72 @@ Point an AI agent at a game you own: read its binary, rebuild it from a decomp, 
 > - **No ROMs, ISOs or disc images.** This list does not host, link to or help find them, and neither should your mod.
 > - Don't ship the original game's files or decompiled code; ship code, patches, converters and your own assets.
 > - Stay out of online games with anti-cheat, and don't bypass DRM or ownership checks.
+
+### 📚 Learn: Decompile, Remix & Mash Up
+
+Explainers, guides and talks, picked by hand. Channel, views and dates are real, as of 2026-10-14 (YouTube video pages via yt-dlp (YouTube Data API quota was exhausted)).
+
+#### Start here (explainers)
+
+| | | By | Views | Date |
+|---|---|---|---|---|
+| <a href="https://youtu.be/wIe3eDfGKUo"><img src="screenshots/learn/yt-wIe3eDfGKUo.jpg" width="120" alt=""></a> | **[Has AI Solved Reverse Engineering?](https://youtu.be/wIe3eDfGKUo)** `Video` | Low Level | 1,002,138 | 2026-10-09 |
+| <a href="https://youtu.be/dAzs_rU6080"><img src="screenshots/learn/yt-dAzs_rU6080.jpg" width="120" alt=""></a> | **[I Tested The Viral Github Repo To Reverse Engineer Anything](https://youtu.be/dAzs_rU6080)** `Video` | Nick Saraev | 958,867 | 2026-10-10 |
+| <a href="https://youtu.be/s95Q7D0WR40"><img src="screenshots/learn/yt-s95Q7D0WR40.jpg" width="120" alt=""></a> | **[AI Is Decompiling Every Game \| TheStandup](https://youtu.be/s95Q7D0WR40)** `Video` | The PrimeTime | 315,364 | 2026-10-11 |
+| <a href="https://youtu.be/h5zkzon0gM4"><img src="screenshots/learn/yt-h5zkzon0gM4.jpg" width="120" alt=""></a> | **[The AI unlock has begun](https://youtu.be/h5zkzon0gM4)** `Video` | AI Search | 953,260 | 2026-10-06 |
+| <a href="https://youtu.be/rRQzrQLZRWM"><img src="screenshots/learn/yt-rRQzrQLZRWM.jpg" width="120" alt=""></a> | **[AI Agents Are Decompiling Every Video Game](https://youtu.be/rRQzrQLZRWM)** `Video` | Slop Architect | 231,925 | 2026-10-06 |
+| <a href="https://youtu.be/jtfpCGsbSJU"><img src="screenshots/learn/yt-jtfpCGsbSJU.jpg" width="120" alt=""></a> | **[Everything is Open Source Now (Reverse Engineer Anything)](https://youtu.be/jtfpCGsbSJU)** `Video` | Better Stack | 103,793 | 2026-10-12 |
+| <a href="https://youtu.be/Pl7ThC4PiVA"><img src="screenshots/learn/yt-Pl7ThC4PiVA.jpg" width="120" alt=""></a> | **[AI Game Decompilation: A Deep Dive](https://youtu.be/Pl7ThC4PiVA)** `Video` | Undocumented Behavior | 52,514 | 2026-10-11 |
+| <a href="https://youtu.be/mYZPHdKKMaI"><img src="screenshots/learn/yt-mYZPHdKKMaI.jpg" width="120" alt=""></a> | **[Recomps and Decomps have taken over Retro Gaming...](https://youtu.be/mYZPHdKKMaI)** `Video` | Modern Vintage Gamer | 613,226 | 2026-09-28 |
+| <a href="https://youtu.be/cX2kD2yQf88"><img src="screenshots/learn/yt-cX2kD2yQf88.jpg" width="120" alt=""></a> | **[Everything has been solved](https://youtu.be/cX2kD2yQf88)** `Video` | Matthew Berman | 246,794 | 2026-10-10 |
+
+#### Mash up games with an agent
+
+| | | By | Views | Date |
+|---|---|---|---|---|
+| <a href="https://universal-modder.dev"><img src="screenshots/learn/universal-modder-dev.jpg" width="120" alt=""></a> | **[universal-modder.dev](https://universal-modder.dev)** `Guide`<br>Project site: install the skills and point your coding agent at a game you own. | universal-modder | | |
+| <a href="https://github.com/rehan-remade/universal-modder/tree/HEAD/skills/mashup-mods"><img src="screenshots/learn/github-com-rehan-remade-universal-modder-tree-head-skills-mashup-mods.jpg" width="120" alt=""></a> | **[skills/mashup-mods](https://github.com/rehan-remade/universal-modder/tree/HEAD/skills/mashup-mods)** `Guide`<br>The agent skill for combining two games: what to bring across and how to wire it in. | universal-modder | | |
+| <a href="https://github.com/rehan-remade/universal-modder/tree/HEAD/examples/minecraft-gta5-passthrough"><img src="screenshots/learn/github-com-rehan-remade-universal-modder-tree-head-examples-minecraft-.jpg" width="120" alt=""></a> | **[examples/minecraft-gta5-passthrough](https://github.com/rehan-remade/universal-modder/tree/HEAD/examples/minecraft-gta5-passthrough)** `Guide`<br>Worked example: real Minecraft depth-composited into GTA V story mode, with field notes. | universal-modder | | |
+| <a href="https://huggingface.co/blog/a2aprotocol/universal-modder-a-practical-guide-to-ai-game-modd"><img src="screenshots/learn/huggingface-co-blog-a2aprotocol-universal-modder-a-practical-guide-to-.jpg" width="120" alt=""></a> | **[Universal Modder: a practical guide to AI game modding](https://huggingface.co/blog/a2aprotocol/universal-modder-a-practical-guide-to-ai-game-modd)** `Guide`<br>Written walkthrough of setting up universal-modder and building a first mod. | Hugging Face blog (a2aprotocol) | | |
+| <a href="https://youtu.be/jXsB-WMP0d0"><img src="screenshots/learn/yt-jXsB-WMP0d0.jpg" width="120" alt=""></a> | **[How To Merge Video Games With AI! (Full Tutorial)](https://youtu.be/jXsB-WMP0d0)** `Video` | Brendan Jowett | 115,225 | 2026-10-06 |
+| <a href="https://youtu.be/NRBfwTBBD54"><img src="screenshots/learn/yt-NRBfwTBBD54.jpg" width="120" alt=""></a> | **[Mod Any PC Game with AI Agents 👁️ Universal Modder Breakdown](https://youtu.be/NRBfwTBBD54)** `Video` | LookOnThisGit | 49,301 | 2026-10-02 |
+| <a href="https://youtu.be/zDDdbraq42M"><img src="screenshots/learn/yt-zDDdbraq42M.jpg" width="120" alt=""></a> | **[How to Play MINECRAFT in GTA 5 (Universal Modder Tutorial)](https://youtu.be/zDDdbraq42M)** `Video` | The Mantis Method | 17,153 | 2026-10-08 |
+| <a href="https://youtu.be/9dDJq1LGBAw"><img src="screenshots/learn/yt-9dDJq1LGBAw.jpg" width="120" alt=""></a> | **[AI Is Merging Video Games Now (here's how)](https://youtu.be/9dDJq1LGBAw)** `Video` | Better Stack | 22,543 | 2026-10-12 |
+| <a href="https://youtu.be/0Uibt85Jtu0"><img src="screenshots/learn/yt-0Uibt85Jtu0.jpg" width="120" alt=""></a> | **[Как делать моды без знаний кода \| Гайд по Universal-modder](https://youtu.be/0Uibt85Jtu0)** `Video` | Vilknz 🤿 | 56,306 | 2026-10-09 |
+| <a href="https://youtu.be/CVwrRn7COyc"><img src="screenshots/learn/yt-CVwrRn7COyc.jpg" width="120" alt=""></a> | **[AI Merging Games in 2026 EXPLAINED!](https://youtu.be/CVwrRn7COyc)** `Video` | MrToucan Explains Memes | 345,483 | 2026-10-03 |
+| <a href="https://youtu.be/jAZ9WQk2UTk"><img src="screenshots/learn/yt-jAZ9WQk2UTk.jpg" width="120" alt=""></a> | **[Modding Games Is Out Of Control](https://youtu.be/jAZ9WQk2UTk)** `Video` | Lessons in Internet Culture | 444,003 | 2026-10-04 |
+| <a href="https://youtu.be/hD-tyU47f84"><img src="screenshots/learn/yt-hD-tyU47f84.jpg" width="120" alt=""></a> | **[Merging Games with AI Situation](https://youtu.be/hD-tyU47f84)** `Video` | Ludocow TV | 199,899 | 2026-09-30 |
+
+#### AI reverse engineering
+
+| | | By | Views | Date |
+|---|---|---|---|---|
+| <a href="https://rea.tools/guides/native/"><img src="screenshots/learn/rea-tools-guides-native.jpg" width="120" alt=""></a> | **[rea: native binaries guide](https://rea.tools/guides/native/)** `Guide`<br>How rea drives Ghidra/IDA on native executables from your agent. | rea.tools | | |
+| <a href="https://rea.tools/showcase/th04/"><img src="screenshots/learn/rea-tools-showcase-th04.jpg" width="120" alt=""></a> | **[rea showcase: TH04 (DOS bullet ring)](https://rea.tools/showcase/th04/)** `Guide`<br>Recovering a DOS-era Touhou bullet-ring calculation step by step. | rea.tools | | |
+| <a href="https://rea.tools/showcase/dx-ball/"><img src="screenshots/learn/rea-tools-showcase-dx-ball.jpg" width="120" alt=""></a> | **[rea showcase: DX-Ball sound pan](https://rea.tools/showcase/dx-ball/)** `Guide`<br>Reconstructing DX-Ball's sound-pan calculation from the binary. | rea.tools | | |
+| <a href="https://github.com/morluto/rea/blob/HEAD/docs/installation.md"><img src="screenshots/learn/github-com-morluto-rea-blob-head-docs-installation-md.jpg" width="120" alt=""></a> | **[rea docs: installation + Ghidra DOS / PPC / MIPS / PSP](https://github.com/morluto/rea/blob/HEAD/docs/installation.md)** `Guide`<br>Install guide; console targets: [DOS](https://github.com/morluto/rea/blob/HEAD/docs/ghidra-dos.md) · [PowerPC](https://github.com/morluto/rea/blob/HEAD/docs/ghidra-ppc.md) · [MIPS](https://github.com/morluto/rea/blob/HEAD/docs/ghidra-mips.md) · [PSP](https://github.com/morluto/rea/blob/HEAD/docs/ghidra-psp.md). | morluto/rea | | |
+| <a href="https://github.com/rehan-remade/universal-modder/blob/HEAD/skills/reverse-engineering/SKILL.md"><img src="screenshots/learn/github-com-rehan-remade-universal-modder-blob-head-skills-reverse-engi.jpg" width="120" alt=""></a> | **[skills/reverse-engineering/SKILL.md](https://github.com/rehan-remade/universal-modder/blob/HEAD/skills/reverse-engineering/SKILL.md)** `Guide`<br>universal-modder's agent skill for working out a game's engine and code before modding. | universal-modder | | |
+| <a href="https://youtu.be/u2vQapLAW88"><img src="screenshots/learn/yt-u2vQapLAW88.jpg" width="120" alt=""></a> | **[ghidraMCP: Now AI Can Reverse Malware](https://youtu.be/u2vQapLAW88)** `Video` | LaurieWired | 188,317 | 2025-03-25 |
+| <a href="https://youtu.be/ybSWI2cZzIU"><img src="screenshots/learn/yt-ybSWI2cZzIU.jpg" width="120" alt=""></a> | **[Stop Manually Reversing: Use Claude + Ghidra MCP Instead (Full Tutorial)](https://youtu.be/ybSWI2cZzIU)** `Video` | Jackson Mittag | 64,188 | 2026-04-10 |
+| <a href="https://youtu.be/sF_Yk0udbZw"><img src="screenshots/learn/yt-sF_Yk0udbZw.jpg" width="120" alt=""></a> | **[Retro Game Decompilation Using AI by Macabeus](https://youtu.be/sF_Yk0udbZw)** `Video` | Codeminer42 | 10,829 | 2025-12-05 |
+
+#### Classic decomp & recomp
+
+| | | By | Views | Date |
+|---|---|---|---|---|
+| <a href="https://wiki.decomp.dev/"><img src="screenshots/learn/wiki-decomp-dev.jpg" width="120" alt=""></a> | **[decomp.dev wiki](https://wiki.decomp.dev/)** `Guide`<br>Community wiki for matching decompilation: tooling, workflow and how to contribute. | decomp.dev | | |
+| <a href="https://github.com/N64Recomp/N64Recomp/wiki"><img src="screenshots/learn/github-com-n64recomp-n64recomp-wiki.jpg" width="120" alt=""></a> | **[N64Recomp wiki](https://github.com/N64Recomp/N64Recomp/wiki)** `Guide`<br>How static recompilation of N64 games works and how to use the tool. | N64Recomp | | |
+| <a href="https://youtu.be/ywWwUuWRgsM"><img src="screenshots/learn/yt-ywWwUuWRgsM.jpg" width="120" alt=""></a> | **[Recompilation: An Incredible New Way to Keep N64 Games Alive](https://youtu.be/ywWwUuWRgsM)** `Video` | Nerrel | 1,104,675 | 2024-05-10 |
+| <a href="https://youtu.be/lJVGd7cBGuQ"><img src="screenshots/learn/yt-lJVGd7cBGuQ.jpg" width="120" alt=""></a> | **[I DECOMPILED a Sonic game... here's how](https://youtu.be/lJVGd7cBGuQ)** `Video` | MattKC | 1,013,111 | 2022-10-14 |
+| <a href="https://youtu.be/lpOEhtoc3DY"><img src="screenshots/learn/yt-lpOEhtoc3DY.jpg" width="120" alt=""></a> | **[N64 : Decomp vs Recomp vs Ports Explained](https://youtu.be/lpOEhtoc3DY)** `Video` | Modern Vintage Gamer | 211,557 | 2025-05-19 |
+| <a href="https://youtu.be/45HT9YwhPYo"><img src="screenshots/learn/yt-45HT9YwhPYo.jpg" width="120" alt=""></a> | **[Super Mario 64 Decomp Modding Tutorial - Getting Started [Windows 10, 11]](https://youtu.be/45HT9YwhPYo)** `Video` | Rovertronic | 6,798 | 2026-02-14 |
+
+<details><summary><b>Trend watch</b></summary>
+
+- [Rehan Sheikh (@rehan_shei), 2026-10-12](https://x.com/rehan_shei/status/2109650540158484913): Left fal to start something new; one person with an agent + fal can mash up any game in a weekend, and those mods did 1B+ views in a week.
+- [morluto (@morluto), 2026-10-11](https://x.com/morluto/status/2109138696008327226): rea 6.4 is out and much, much faster.
+
+</details>
 
 ### 1b. AI reverse engineering
 
