@@ -1031,5 +1031,69 @@
  "omgithub": {
   "screenshot": "screenshots/omgithub.jpg",
   "source": "capture:https://omgithub.com/"
+ },
+ "hosted:https://origozero.ai": {
+  "screenshot": "screenshots/hosted/origozero-ai.jpg",
+  "source": "capture:https://origozero.ai"
+ },
+ "hosted:https://mindblown.ai": {
+  "screenshot": "screenshots/hosted/mindblown-ai.jpg",
+  "source": "capture:https://mindblown.ai"
+ },
+ "hosted:https://omgithub.com": {
+  "screenshot": "screenshots/hosted/omgithub-com.jpg",
+  "source": "capture:https://omgithub.com"
+ },
+ "hosted:https://astrocade.com": {
+  "screenshot": "screenshots/hosted/astrocade-com.jpg",
+  "source": "capture:https://astrocade.com"
+ },
+ "hosted:https://bitmagic.ai": {
+  "screenshot": "screenshots/hosted/bitmagic-ai.jpg",
+  "source": "capture:https://bitmagic.ai"
+ },
+ "hosted:https://rosebud.ai": {
+  "screenshot": "screenshots/hosted/rosebud-ai.jpg",
+  "source": "capture:https://rosebud.ai"
+ },
+ "hosted:https://spawn.co": {
+  "screenshot": "screenshots/hosted/spawn-co.jpg",
+  "source": "capture:https://spawn.co"
+ },
+ "hosted:https://upit.com": {
+  "screenshot": "screenshots/hosted/upit-com.jpg",
+  "source": "capture:https://upit.com"
+ },
+ "hosted:https://www.jabali.ai": {
+  "screenshot": "screenshots/hosted/www-jabali-ai.jpg",
+  "source": "capture:https://www.jabali.ai"
+ },
+ "hosted:https://www.makko.ai": {
+  "screenshot": "screenshots/hosted/www-makko-ai.jpg",
+  "source": "capture:https://www.makko.ai"
+ },
+ "hosted:https://ludo.ai": {
+  "screenshot": "screenshots/hosted/ludo-ai.jpg",
+  "source": "capture:https://ludo.ai"
+ },
+ "hosted:https://www.scenario.com": {
+  "screenshot": "screenshots/hosted/www-scenario-com.jpg",
+  "source": "capture:https://www.scenario.com"
+ },
+ "hosted:https://www.layer.ai": {
+  "screenshot": "screenshots/hosted/www-layer-ai.jpg",
+  "source": "capture:https://www.layer.ai"
+ },
+ "hosted:https://www.godmodeai.co": {
+  "screenshot": "screenshots/hosted/www-godmodeai-co.jpg",
+  "source": "capture:https://www.godmodeai.co"
+ },
+ "hosted:https://www.meshy.ai": {
+  "screenshot": "screenshots/hosted/www-meshy-ai.jpg",
+  "source": "og:image (headless capture blocked by site)"
+ },
+ "hosted:https://www.bezi.com": {
+  "screenshot": "screenshots/hosted/www-bezi-com.jpg",
+  "source": "capture:https://www.bezi.com"
  }
 }

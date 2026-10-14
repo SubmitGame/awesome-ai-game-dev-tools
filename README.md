@@ -16,11 +16,11 @@
    - [c. Agent-driven modding](#1c-agent-driven-modding)
    - [d. Mashups & remixes](#1d-mashups--remixes)
    - [e. AI replacement assets](#1e-ai-replacement-assets)
-2. [Agents & MCP servers](#2-agents--mcp-servers) (20)
-3. [Game generation & world models](#3-game-generation--world-models) (13)
+2. [Agents & MCP servers](#2-agents--mcp-servers) (20 + 1 hosted)
+3. [Game generation & world models](#3-game-generation--world-models) (13 + 10 hosted)
 4. [Code & engines](#4-code--engines) (13)
-5. [Art](#5-art) (20)
-6. [3D, animation & shaders](#6-3d-animation--shaders) (25)
+5. [Art](#5-art) (20 + 4 hosted)
+6. [3D, animation & shaders](#6-3d-animation--shaders) (25 + 1 hosted)
 7. [Audio](#7-audio) (30)
 8. [NPCs & narrative](#8-npcs--narrative) (14)
 9. [Testing, QA & analytics](#9-testing-qa--analytics) (5)
@@ -179,6 +179,14 @@ Coding agents, agent skills, multi-agent game studios and MCP bridges into Unity
 | <a href="https://github.com/IvanMurzak/Godot-MCP"><img src="screenshots/ivanmurzak-godot-mcp.jpg" width="120" alt=""></a> | **[IvanMurzak/Godot-MCP](https://github.com/IvanMurzak/Godot-MCP)** | 284 | 2026-10-13 | Godot-MCP — Model Context Protocol (MCP) integration for the Godot Engine. AI tools for the Godot Editor in C#, with cloud connection to ai-game.dev. Apache-2.0. | [site / demo](https://ai-game.dev) |
 | <a href="https://github.com/TREE-Ind/Unreal-Agent"><img src="screenshots/tree-ind-unreal-agent.jpg" width="120" alt=""></a> | **[TREE-Ind/Unreal-Agent](https://github.com/TREE-Ind/Unreal-Agent)** | 238 | 2026-06-18 | A collection of Unreal Engine 5 Editor Utility widgets powered by GPT3/4 |  |
 
+### Hosted tools
+
+Closed-source web services. They have no GitHub stars, so the star and activity rules don't apply; a cited signal is shown where one exists.
+
+| | Service | Signal | What it does |
+|---|---|---|---|
+| <a href="https://www.bezi.com"><img src="screenshots/hosted/www-bezi-com.jpg" width="120" alt=""></a> | **[Bezi](https://www.bezi.com)** `Hosted` | Hosted | The AI assistant built for Unity developers: debugging, code generation, shader creation and prototyping, working with your actual project. |
+
 ## 3. Game generation & world models
 
 Interactive world models, playable video generation and procedural world/level generators.
@@ -198,6 +206,23 @@ Interactive world models, playable video generation and procedural world/level g
 | <a href="https://github.com/Tencent-Hunyuan/Hunyuan-GameCraft-1.0"><img src="screenshots/tencent-hunyuan-hunyuan-gamecraft-1-0.jpg" width="120" alt=""></a> | **[Tencent-Hunyuan/Hunyuan-GameCraft-1.0](https://github.com/Tencent-Hunyuan/Hunyuan-GameCraft-1.0)** | 749 | 2025-11-28 | Hunyuan-GameCraft: High-dynamic Interactive Game Video Generation with Hybrid History Condition | [site / demo](https://hunyuan-gamecraft.github.io/) |
 | <a href="https://github.com/hzxie/CityDreamer"><img src="screenshots/hzxie-citydreamer.jpg" width="120" alt=""></a> | **[hzxie/CityDreamer](https://github.com/hzxie/CityDreamer)** | 700 | 2026-09-07 | The official implementation of "CityDreamer: Compositional Generative Model of Unbounded 3D Cities". (CVPR 2024) | [site / demo](https://haozhexie.com/project/city-dreamer) |
 | <a href="https://github.com/genex-games/genex-desktop"><img src="screenshots/genex-games-genex-desktop.jpg" width="120" alt=""></a> | **[genex-games/genex-desktop](https://github.com/genex-games/genex-desktop)** | 604 | 2026-10-14 | Desktop app for game dev with AI. macOS and Linux, Windows soon. | [site / demo](https://genex.games/desktop) |
+
+### Hosted AI game makers
+
+Closed-source web services. They have no GitHub stars, so the star and activity rules don't apply; a cited signal is shown where one exists.
+
+| | Service | Signal | What it does |
+|---|---|---|---|
+| <a href="https://origozero.ai"><img src="screenshots/hosted/origozero-ai.jpg" width="120" alt=""></a> | **[OrigoZero](https://origozero.ai)** `Hosted` | Hosted | An AI game maker for 3D games in the browser: describe your idea, an agent builds it live in the Zero engine, then publish it on OrigoZero for anyone to play. |
+| <a href="https://mindblown.ai"><img src="screenshots/hosted/mindblown-ai.jpg" width="120" alt=""></a> | **[mindblown](https://mindblown.ai)** `Hosted` | Hosted | Describe a game and mindblown's AI game maker builds it, playtests it and puts it online. Change it by chatting, or play free browser games others made. |
+| <a href="https://omgithub.com"><img src="screenshots/hosted/omgithub-com.jpg" width="120" alt=""></a> | **[OmGithub](https://omgithub.com)** `Hosted` | Hosted | Discover and play games, and explore their creators and source on GitHub; also lets you make games. |
+| <a href="https://astrocade.com"><img src="screenshots/hosted/astrocade-com.jpg" width="120" alt=""></a> | **[Astrocade](https://astrocade.com)** `Hosted` | [Raised $56M](https://www.astrocade.com/blog/astrocade-raises-56m-funding) · [10M monthly players](https://gamesbeat.com/astrocade-hits-10m-monthly-players-for-its-ai-assisted-ugc-casual-games-platform/) | The social gaming platform where anyone can build, share, and play AI games. No coding or downloads. |
+| <a href="https://bitmagic.ai"><img src="screenshots/hosted/bitmagic-ai.jpg" width="120" alt=""></a> | **[Bitmagic](https://bitmagic.ai)** `Hosted` | [$4M seed incl. Supercell](https://bitmagic.ai/about/) | AI-first game development: new games from new creators every day, one tap, in your browser, free. |
+| <a href="https://rosebud.ai"><img src="screenshots/hosted/rosebud-ai.jpg" width="120" alt=""></a> | **[Rosebud AI](https://rosebud.ai)** `Hosted` | Hosted | Create playable games with AI prompts. Describe your idea or choose a template, then build and deploy your game. No coding required. |
+| <a href="https://spawn.co"><img src="screenshots/hosted/spawn-co.jpg" width="120" alt=""></a> | **[Spawn](https://spawn.co)** `Hosted` | Hosted | Your place to make games with friends: describe anything and Savi, your AI game builder, makes it with you. Then play together instantly in your browser. |
+| <a href="https://upit.com"><img src="screenshots/hosted/upit-com.jpg" width="120" alt=""></a> | **[Upit](https://upit.com)** `Hosted` | Hosted | AI game creator: create, play and share games with Upit. |
+| <a href="https://www.jabali.ai"><img src="screenshots/hosted/www-jabali-ai.jpg" width="120" alt=""></a> | **[Jabali](https://www.jabali.ai)** `Hosted` | Hosted | Create your own game instantly with Jabali's AI game generator: puzzle, shooter, anime games and more with no code, playable in minutes. |
+| <a href="https://www.makko.ai"><img src="screenshots/hosted/www-makko-ai.jpg" width="120" alt=""></a> | **[Makko AI](https://www.makko.ai)** `Hosted` | Hosted | Make 2D games with AI: start with concept art, then create characters, backgrounds, objects and animations in one consistent style, and build playable games in your browser. |
 
 ## 4. Code & engines
 
@@ -246,6 +271,17 @@ Image, sprite, texture and UI generation and editing.
 | <a href="https://github.com/SkyworkAI/UniPic"><img src="screenshots/skyworkai-unipic.jpg" width="120" alt=""></a> | **[SkyworkAI/UniPic](https://github.com/SkyworkAI/UniPic)** | 877 | 2026-07-13 | Open-source SOTA multi-image editing model | [site / demo](https://unipic-v2.github.io/) |
 | <a href="https://github.com/Tencent-Hunyuan/HunyuanImage-2.1"><img src="screenshots/tencent-hunyuan-hunyuanimage-2-1.jpg" width="120" alt=""></a> | **[Tencent-Hunyuan/HunyuanImage-2.1](https://github.com/Tencent-Hunyuan/HunyuanImage-2.1)** | 674 | 2025-10-14 | HunyuanImage-2.1: An Efficient Diffusion Model for High-Resolution (2K) Text-to-Image Generation​ | [site / demo](https://hunyuan.tencent.com/image/en?tabIndex=0) |
 
+### Hosted tools
+
+Closed-source web services. They have no GitHub stars, so the star and activity rules don't apply; a cited signal is shown where one exists.
+
+| | Service | Signal | What it does |
+|---|---|---|---|
+| <a href="https://ludo.ai"><img src="screenshots/hosted/ludo-ai.jpg" width="120" alt=""></a> | **[Ludo.ai](https://ludo.ai)** `Hosted` | Hosted | Production-ready game assets (sprites, icons, UI, textures, music, 3D and video) generated by AI, ready to drop into your engine. |
+| <a href="https://www.scenario.com"><img src="screenshots/hosted/www-scenario-com.jpg" width="120" alt=""></a> | **[Scenario](https://www.scenario.com)** `Hosted` | Hosted | The leading AI models in one place for creative production and game assets. Build image, video, 3D and audio pipelines with workflows and agents. |
+| <a href="https://www.layer.ai"><img src="screenshots/hosted/www-layer-ai.jpg" width="120" alt=""></a> | **[Layer](https://www.layer.ai)** `Hosted` | Hosted | Generate images, video, 3D and audio with 300+ models, train Layer on your style, and automate production. |
+| <a href="https://www.godmodeai.co"><img src="screenshots/hosted/www-godmodeai-co.jpg" width="120" alt=""></a> | **[God Mode AI](https://www.godmodeai.co)** `Hosted` | Hosted | AI sprite & animation generator for games: artifact-free looping animations, rich action types, multiple camera views and advanced VFX. Commercial licensing included. |
+
 ## 6. 3D, animation & shaders
 
 Image/text-to-3D, motion generation, video and shader tools.
@@ -277,6 +313,14 @@ Image/text-to-3D, motion generation, video and shader tools.
 | <a href="https://github.com/academa-labs/manimgx"><img src="screenshots/academa-labs-manimgx.jpg" width="120" alt=""></a> | **[academa-labs/manimgx](https://github.com/academa-labs/manimgx)** | 1.2k | 2026-10-14 | The animation engine for agents: blazingly fast math and 3D videos with Manim's Python API, on a Rust GPU core. <br>*Note: An animation/video engine more than a game tool: useful for trailers, explainers and cutscene-style renders.* | [site / demo](https://manimgx.academa.ai) |
 | <a href="https://github.com/LordLiang/DrawingSpinUp"><img src="screenshots/lordliang-drawingspinup.jpg" width="120" alt=""></a> | **[LordLiang/DrawingSpinUp](https://github.com/LordLiang/DrawingSpinUp)** | 658 | 2026-09-25 | (SIGGRAPH Asia 2024) This is the official PyTorch implementation of SIGGRAPH Asia 2024 paper: DrawingSpinUp: 3D Animation from Single Character Drawings | [site / demo](https://lordliang.github.io/DrawingSpinUp/) |
 | <a href="https://github.com/ActiveVisionLab/gaussctrl"><img src="screenshots/activevisionlab-gaussctrl.jpg" width="120" alt=""></a> | **[ActiveVisionLab/gaussctrl](https://github.com/ActiveVisionLab/gaussctrl)** | 135 | 2026-03-19 | [ECCV 2024] GaussCtrl: Multi-View Consistent Text-Driven 3D Gaussian Splatting Editing | [site / demo](https://gaussctrl.active.vision/) |
+
+### Hosted tools
+
+Closed-source web services. They have no GitHub stars, so the star and activity rules don't apply; a cited signal is shown where one exists.
+
+| | Service | Signal | What it does |
+|---|---|---|---|
+| <a href="https://www.meshy.ai"><img src="screenshots/hosted/www-meshy-ai.jpg" width="120" alt=""></a> | **[Meshy](https://www.meshy.ai)** `Hosted` | Hosted | Turns text and images into production-ready 3D models in 20-30 seconds. Export to FBX, OBJ, GLB and STL. |
 
 ## 7. Audio
 

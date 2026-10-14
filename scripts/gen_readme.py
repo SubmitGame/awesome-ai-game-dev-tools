@@ -41,6 +41,20 @@ def learn_block():
         L.append("")
     L += ["<details><summary><b>Trend watch</b></summary>", ""] + [f"- [{t['by']}, {t['date']}]({t['url']}): {t['text']}" for t in LRN["trend"]] + ["", "</details>", ""]
     return L
+
+HOSTED = json.load(open(D("data/hosted.json")))
+def hosted_block(sk):
+    rows = [x for x in HOSTED if x["section"] == sk]
+    if not rows: return []
+    name = "Hosted AI game makers" if sk == "gamegen" else "Hosted tools"
+    L = [f"### {name}", "", "Closed-source web services. They have no GitHub stars, so the star and activity rules don't apply; a cited signal is shown where one exists.", "",
+         "| | Service | Signal | What it does |", "|---|---|---|---|"]
+    for x in rows:
+        m = media.get("hosted:" + x["url"], {})
+        img = f'<a href="{x["url"]}"><img src="{m["screenshot"]}" width="120" alt=""></a>' if m.get("screenshot") else ""
+        sig = " · ".join(f"[{g['text']}]({g['url']})" for g in x.get("signals", [])) or "Hosted"
+        L.append(f"| {img} | **[{esc(x['title'])}]({x['url']})** `Hosted` | {sig} | {esc(x['desc'])} |")
+    return L + [""]
 act = [e for e in T if not e["inactive"]]; old = [e for e in T if e["inactive"]]
 sec = lambda s: [e for e in act if e["section"] == s]
 L = ["<!-- GENERATED FILE: edit data/ and run scripts/refresh, not this file -->",
@@ -53,7 +67,9 @@ L.append("   - [📚 Learn: Decompile, Remix & Mash Up](#-learn-decompile-remix-
 for sub, name in [("a", "AI reverse engineering"), ("b", "Decomp & recomp projects"), ("c", "Agent-driven modding"), ("d", "Mashups & remixes"), ("e", "AI replacement assets")]:
     L.append(f"   - [{sub}. {name}](#1{sub}-{anchor(name)})")
 for s, v in S.items():
-    if v["num"] != "1": L.append(f"{v['num']}. [{v['name']}](#{v['num']}-{anchor(v['name'])}) ({len(sec(s))})")
+    if v["num"] != "1":
+        nh = sum(1 for x in json.load(open(D("data/hosted.json"))) if x["section"] == s)
+        L.append(f"{v['num']}. [{v['name']}](#{v['num']}-{anchor(v['name'])}) ({len(sec(s))}" + (f" + {nh} hosted" if nh else "") + ")")
 L += [f"11. [Inactive / unmaintained](#11-inactive--unmaintained) ({len(old)})", "- [Inclusion rules](#inclusion-rules) · [Sources](#sources) · [Contributing](#contributing) · [License](#license)", ""]
 L += ["## 1. Decompile, remix & mash up games", "", "Point an AI agent at a game you own: read its binary, rebuild it from a decomp, mod it, mash it up with another game, or regenerate its assets.", "",
 ] + learn_block() + ["### 1a. AI reverse engineering", "", S["reverse"]["description"], ""] + table(sec("reverse"))
@@ -63,7 +79,7 @@ L += ["### 1d. Mashups & remixes", "", "Mods built by AI agents with universal-m
 L += ["### 1e. AI replacement assets", "", S["replacement"]["description"], ""] + table(sec("replacement"))
 for s, v in S.items():
     if v["num"] == "1": continue
-    L += [f"## {v['num']}. {v['name']}", "", v["description"], ""] + table(sec(s))
+    L += [f"## {v['num']}. {v['name']}", "", v["description"], ""] + table(sec(s)) + hosted_block(s)
     if s == "showcase": L += ["More playable AI-made games without public source live in [aviaryan/awesome-ai-games](https://github.com/aviaryan/awesome-ai-games) and [AgentsLoop/awesome-opus-5.5-games](https://github.com/AgentsLoop/awesome-opus-5.5-games).", ""]
 L += ["## 11. Inactive / unmaintained", "", f"{len(old)} tools that are archived (🗄️) or have had no push since {doc['inactive_cutoff']} (2 years). They may still work, but don't expect fixes.", ""]
 for s, v in S.items():
