@@ -1103,5 +1103,10 @@
  "hosted:https://www.krea.ai/krea-3": {
   "screenshot": "screenshots/hosted/www-krea-ai-krea-3.jpg",
   "source": "capture:https://www.krea.ai/krea-3"
+ },
+ "bailo167/awesome-game-mashups": {
+  "homepage_status": 200,
+  "screenshot": "screenshots/bailo167-awesome-game-mashups.jpg",
+  "source": "capture:https://bailo167.github.io/awesome-game-mashups/"
  }
 }
