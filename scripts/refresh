@@ -9,6 +9,7 @@ python3 scripts/enrich.py
 python3 scripts/build.py
 python3 scripts/media.py --missing-only || echo "media step failed (non-fatal)"
 python3 scripts/build.py
+python3 scripts/hosted.py || echo "hosted step failed (non-fatal)"
 python3 scripts/gen_readme.py
 if [[ "${1:-}" == "--commit" ]]; then
   git add -A data README.md screenshots

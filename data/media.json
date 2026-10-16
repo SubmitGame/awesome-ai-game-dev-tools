@@ -1095,5 +1095,13 @@
  "hosted:https://www.bezi.com": {
   "screenshot": "screenshots/hosted/www-bezi-com.jpg",
   "source": "capture:https://www.bezi.com"
+ },
+ "hosted:https://huggingface.co/black-forest-labs/flux-3-image-klein": {
+  "screenshot": "screenshots/hosted/huggingface-co-black-forest-labs-flux-3-image-klein.jpg",
+  "source": "capture:https://huggingface.co/black-forest-labs/flux-3-image-klein"
+ },
+ "hosted:https://www.krea.ai/krea-3": {
+  "screenshot": "screenshots/hosted/www-krea-ai-krea-3.jpg",
+  "source": "capture:https://www.krea.ai/krea-3"
  }
 }

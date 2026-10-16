@@ -19,7 +19,7 @@
 2. [Agents & MCP servers](#2-agents--mcp-servers) (20 + 1 hosted)
 3. [Game generation & world models](#3-game-generation--world-models) (13 + 10 hosted)
 4. [Code & engines](#4-code--engines) (13)
-5. [Art](#5-art) (19 + 4 hosted)
+5. [Art](#5-art) (19 + 6 hosted)
 6. [3D, animation & shaders](#6-3d-animation--shaders) (25 + 1 hosted)
 7. [Audio](#7-audio) (30)
 8. [NPCs & narrative](#8-npcs--narrative) (14)
@@ -181,7 +181,7 @@ Coding agents, agent skills, multi-agent game studios and MCP bridges into Unity
 
 ### Hosted tools
 
-Closed-source web services. They have no GitHub stars, so the star and activity rules don't apply; a cited signal is shown where one exists.
+Hosted services and models that live outside GitHub. They have no GitHub stars, so the star and activity rules don't apply; a cited signal is shown where one exists.
 
 | | Service | Signal | What it does |
 |---|---|---|---|
@@ -209,7 +209,7 @@ Interactive world models, playable video generation and procedural world/level g
 
 ### Hosted AI game makers
 
-Closed-source web services. They have no GitHub stars, so the star and activity rules don't apply; a cited signal is shown where one exists.
+Hosted services and models that live outside GitHub. They have no GitHub stars, so the star and activity rules don't apply; a cited signal is shown where one exists.
 
 | | Service | Signal | What it does |
 |---|---|---|---|
@@ -272,7 +272,7 @@ Image, sprite, texture and UI generation and editing.
 
 ### Hosted tools
 
-Closed-source web services. They have no GitHub stars, so the star and activity rules don't apply; a cited signal is shown where one exists.
+Hosted services and models that live outside GitHub. They have no GitHub stars, so the star and activity rules don't apply; a cited signal is shown where one exists.
 
 | | Service | Signal | What it does |
 |---|---|---|---|
@@ -280,6 +280,8 @@ Closed-source web services. They have no GitHub stars, so the star and activity 
 | <a href="https://www.scenario.com"><img src="screenshots/hosted/www-scenario-com.jpg" width="120" alt=""></a> | **[Scenario](https://www.scenario.com)** `Hosted` | Hosted | The leading AI models in one place for creative production and game assets. Build image, video, 3D and audio pipelines with workflows and agents. |
 | <a href="https://www.layer.ai"><img src="screenshots/hosted/www-layer-ai.jpg" width="120" alt=""></a> | **[Layer](https://www.layer.ai)** `Hosted` | Hosted | Generate images, video, 3D and audio with 300+ models, train Layer on your style, and automate production. |
 | <a href="https://www.godmodeai.co"><img src="screenshots/hosted/www-godmodeai-co.jpg" width="120" alt=""></a> | **[God Mode AI](https://www.godmodeai.co)** `Hosted` | Hosted | AI sprite & animation generator for games: artifact-free looping animations, rich action types, multiple camera views and advanced VFX. Commercial licensing included. |
+| <a href="https://huggingface.co/black-forest-labs/flux-3-image-klein"><img src="screenshots/hosted/huggingface-co-black-forest-labs-flux-3-image-klein.jpg" width="120" alt=""></a> | **[FLUX 3 Image Klein](https://huggingface.co/black-forest-labs/flux-3-image-klein)** `Open weights` | [264 likes on Hugging Face](https://huggingface.co/black-forest-labs/flux-3-image-klein) | 5.6B open weights model for text-to-image generation and image editing: a prompt plus up to 10 reference images in, one image out. FLUX Kommunity License (non-commercial, with a commercial-output exception for qualifying users). License: `flux-kommunity-license`. |
+| <a href="https://www.krea.ai/krea-3"><img src="screenshots/hosted/www-krea-ai-krea-3.jpg" width="120" alt=""></a> | **[Krea 3 Image Edit](https://www.krea.ai/krea-3)** `Hosted` | Hosted | Krea 3 is an image editing model built for production: it changes only what you ask, with up to 6 reference images and 1K or 2K output. Available in Krea's app and API; no downloadable weights published. Source: [Civitai announcement](https://civitai.com/articles/36718/krea-3-is-now-on-civitai). |
 
 ## 6. 3D, animation & shaders
 
@@ -315,7 +317,7 @@ Image/text-to-3D, motion generation, video and shader tools.
 
 ### Hosted tools
 
-Closed-source web services. They have no GitHub stars, so the star and activity rules don't apply; a cited signal is shown where one exists.
+Hosted services and models that live outside GitHub. They have no GitHub stars, so the star and activity rules don't apply; a cited signal is shown where one exists.
 
 | | Service | Signal | What it does |
 |---|---|---|---|

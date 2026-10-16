@@ -47,13 +47,14 @@ def hosted_block(sk):
     rows = [x for x in HOSTED if x["section"] == sk]
     if not rows: return []
     name = "Hosted AI game makers" if sk == "gamegen" else "Hosted tools"
-    L = [f"### {name}", "", "Closed-source web services. They have no GitHub stars, so the star and activity rules don't apply; a cited signal is shown where one exists.", "",
+    L = [f"### {name}", "", "Hosted services and models that live outside GitHub. They have no GitHub stars, so the star and activity rules don't apply; a cited signal is shown where one exists.", "",
          "| | Service | Signal | What it does |", "|---|---|---|---|"]
     for x in rows:
         m = media.get("hosted:" + x["url"], {})
         img = f'<a href="{x["url"]}"><img src="{m["screenshot"]}" width="120" alt=""></a>' if m.get("screenshot") else ""
         sig = " · ".join(f"[{g['text']}]({g['url']})" for g in x.get("signals", [])) or "Hosted"
-        L.append(f"| {img} | **[{esc(x['title'])}]({x['url']})** `Hosted` | {sig} | {esc(x['desc'])} |")
+        extra = (f" License: `{x['license']}`." if x.get("license") else "") + (f" Source: [{x['source']['text']}]({x['source']['url']})." if x.get("source") else "")
+        L.append(f"| {img} | **[{esc(x['title'])}]({x['url']})** `{x.get('kind', 'Hosted')}` | {sig} | {esc(x['desc'])}{extra} |")
     return L + [""]
 act = [e for e in T if not e["inactive"]]; old = [e for e in T if e["inactive"]]
 sec = lambda s: [e for e in act if e["section"] == s]
