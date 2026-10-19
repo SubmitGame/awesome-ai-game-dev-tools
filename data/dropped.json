@@ -1,12 +1,50 @@
 [
  {
+  "repo": "Donchitos/Claude-Code-Game-Studios",
+  "reason": "not found on GitHub"
+ },
+ {
+  "repo": "Tencent-Hunyuan/HY-World-2.0",
+  "reason": "not found on GitHub"
+ },
+ {
+  "repo": "Robbyant/lingbot-world",
+  "reason": "not found on GitHub"
+ },
+ {
+  "repo": "Robbyant/lingbot-world-v2",
+  "reason": "not found on GitHub"
+ },
+ {
   "repo": "Tencent-Hunyuan/HunyuanImage-2.1",
   "pushed_at": "2025-10-14T06:38:42Z",
   "reason": "no push in 1-2 years"
  },
  {
+  "repo": "Tencent-Hunyuan/Hunyuan3D-2.1",
+  "pushed_at": "2025-10-17T10:10:07Z",
+  "reason": "no push in 1-2 years"
+ },
+ {
+  "repo": "aras-p/UnityGaussianSplatting",
+  "pushed_at": "2025-10-17T07:21:38Z",
+  "reason": "no push in 1-2 years"
+ },
+ {
+  "repo": "Kevin-Liu-01/Claude-of-Tanks",
+  "reason": "not found on GitHub"
+ },
+ {
   "repo": "mrdoob/three-descent",
   "stars": 90,
   "reason": "<100 stars"
+ },
+ {
+  "repo": "AgentsLoop/awesome-opus-5.5-games",
+  "reason": "not found on GitHub"
+ },
+ {
+  "repo": "corosolto/client",
+  "reason": "not found on GitHub"
  }
 ]
