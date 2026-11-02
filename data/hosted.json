@@ -100,6 +100,12 @@
   "desc": "AI sprite & animation generator for games: artifact-free looping animations, rich action types, multiple camera views and advanced VFX. Commercial licensing included."
  },
  {
+  "section": "art",
+  "title": "Voidless",
+  "url": "https://voidless.dev",
+  "desc": "AI game art from the browser or your coding agent: sprites, 8-direction turns, animation sets, tilesets, 3D models, music and sound effects. Hosted MCP server for Claude, Cursor and Codex; frames keep one size and palette across a set."
+ },
+ {
   "section": "3d",
   "title": "Meshy",
   "url": "https://www.meshy.ai",
