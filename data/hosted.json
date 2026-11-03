@@ -76,6 +76,12 @@
   "desc": "Make 2D games with AI: start with concept art, then create characters, backgrounds, objects and animations in one consistent style, and build playable games in your browser."
  },
  {
+  "section": "gamegen",
+  "title": "Flockbay",
+  "url": "https://flockbay.com/?utm_source=aigamedevtools&utm_medium=directory&utm_campaign=listing",
+  "desc": "Free AI game maker built on Godot: a desktop app where an AI agent builds and playtests a real Godot 4 project on your disk, on free hosted AI or your own Claude, ChatGPT or MCP agent."
+ },
+ {
   "section": "art",
   "title": "Ludo.ai",
   "url": "https://ludo.ai",
