@@ -158,6 +158,7 @@
   "academa-labs/manimgx"
  ],
  "audio": [
+  "gradium-ai/xn-ptts",
   "ace-step/ACE-Step",
   "QwenLM/Qwen3-TTS",
   "facebookresearch/audiocraft",
