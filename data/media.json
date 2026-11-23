@@ -429,7 +429,8 @@
  },
  "VAST-AI-Research/TripoSR": {
   "screenshot": "screenshots/vast-ai-research-triposr.jpg",
-  "source": "https://raw.githubusercontent.com/VAST-AI-Research/TripoSR/main/figures/teaser800.gif"
+  "source": "https://raw.githubusercontent.com/VAST-AI-Research/TripoSR/main/figures/teaser800.gif",
+  "homepage_status": 200
  },
  "JannisX11/blockbench": {
   "homepage_status": 200,
@@ -1108,5 +1109,9 @@
   "homepage_status": 200,
   "screenshot": "screenshots/bailo167-awesome-game-mashups.jpg",
   "source": "capture:https://bailo167.github.io/awesome-game-mashups/"
+ },
+ "bilibili/GPT-SoVITS": {
+  "screenshot": "screenshots/bilibili-gpt-sovits.jpg",
+  "source": "https://github.com/user-attachments/assets/8c2a0e0a-7212-4b77-b5ef-2d192e09127f"
  }
 }
