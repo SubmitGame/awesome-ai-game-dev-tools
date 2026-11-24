@@ -41,6 +41,11 @@
   "reason": "no push in 1-2 years"
  },
  {
+  "repo": "RVC-Boss/GPT-SoVITS",
+  "stars": 13,
+  "reason": "<100 stars"
+ },
+ {
   "repo": "FireRedTeam/FireRedTTS2",
   "pushed_at": "2025-10-26T11:30:01Z",
   "reason": "no push in 1-2 years"
