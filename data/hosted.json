@@ -137,5 +137,11 @@
    "text": "Civitai announcement",
    "url": "https://civitai.com/articles/36718/krea-3-is-now-on-civitai"
   }
+ },
+ {
+  "section": "agents",
+  "title": "No Stairs Please MCP",
+  "url": "https://nostairsplease.com/mcp",
+  "desc": "Hosted MCP server and structured directory of 25,000+ real-world live music venues, stage specs, and room layouts."
  }
 ]
