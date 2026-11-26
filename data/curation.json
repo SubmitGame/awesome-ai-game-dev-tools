@@ -201,6 +201,7 @@
   "AIGC-Audio/AudioGPT"
  ],
  "npc": [
+  "gradium-ai/gradbot",
   "a16z-infra/ai-town",
   "AkshitIreddy/Interactive-LLM-Powered-NPCs",
   "uezo/ChatdollKit",
